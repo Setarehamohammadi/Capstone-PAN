@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="h-full">
-      <main className="h-full">
-        <div className="flex gap-4 items-center justify-center bg-[#1E0F62] h-[75px]">
+      <main className="h-full flex flex-col">
+        <div className="flex gap-4 items-center justify-center bg-[#1E0F62] h-[75px] sticky top-0">
           <Image src="/images/logo.png" alt="PAN" width={40} height={40} />
           <h1 className="text-[35px] font-bold">PAN</h1>
         </div>
 
-        <div className="flex flex-col gap-4 bg-[#DBC4FF] h-full py-6 px-52">
+        <div className="flex flex-col gap-4 bg-[#DBC4FF] h-full py-6 px-6 lg:px-52 overflow-y-auto">
           <div className="flex flex-col gap-4 bg-[#FFFFFF] p-6 rounded-lg">
             <h1 className="text-2xl font-bold text-[#1E0F62]">{`Welcome to the Trillium Drug Program Application Navigator Tool!`}</h1>
             <p className="text-sm text-[#1E0F62]">{`This tool is designed to help you understand and navigate the application process for Ontario’s Trillium Drug Program (TDP). The TDP is a government program that provides financial support for prescription drug costs, especially for those with high medication expenses.`}</p>
