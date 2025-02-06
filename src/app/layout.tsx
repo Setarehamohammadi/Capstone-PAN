@@ -32,10 +32,14 @@ export default function RootLayout({
           <Image src="/images/logo.png" alt="PAN" width={40} height={40} />
           <h1 className="text-[35px] font-bold text-[#FFFFFF]">PAN</h1>
         </div> 
-        <div className="flex flex-col items-center gap-4 bg-[#DBC4FF] h-full py-6 px-6 lg:px-52 overflow-y-auto ">
+        <div className="flex flex-col items-center gap-4 bg-[#DBC4FF] h-full pb-11 py-6 px-6 lg:px-52 overflow-y-auto ">
         {children}
         </div>
       </body>
     </html>
   );
 }
+
+// -- view port scrolling
+// -- hyper link hover
+// -- button hover

@@ -16,7 +16,7 @@ export default function Disclaimer() {
         <h1 className="text-2xl font-bold text-[#1E0F62]">{`Disclaimer`}</h1>
         <p className="text-sm text-[#1E0F62]">{`Before using this navigator tool, please review each of the following statements carefully.`}</p>
         <h3 className="text-lg font-bold text-[#1E0F62]">{`Note, in the following statements, “users” refers to you, the user of this tool.`}</h3>
-        <ul className="list-disc list-inside text-sm text-[#1E0F62]">
+        <ul className="list-disc  list-inside text-sm text-[#1E0F62]">
           <li>
             {`This tool is a guide to assist with the Trillium Drug Program (TDP) application process but is `}
             <span className="font-bold">{`not a replacement`}</span>
@@ -68,7 +68,7 @@ export default function Disclaimer() {
         <Link className="w-full" href="/accessing-form">
           <button
             disabled={!isChecked}
-            className="bg-[#1E0F62] text-white lg:text-[20px] font-bold w-full max-w-[700px] px-4 py-2 rounded-2xl shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+            className="bg-[#1E0F62] text-white lg:text-[20px] font-bold w-full max-w-[700px] px-4 py-2 rounded-2xl shadow-lg hover:bg-[#1E0F62]/80 disabled:opacity-50 disabled:cursor-not-allowed"
         >
             {`Continue`}
           </button>

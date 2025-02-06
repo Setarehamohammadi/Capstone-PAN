@@ -27,7 +27,7 @@ export default function Home() {
           <span className="font-bold">{`alongside the application process.`}</span>{" "}
           {`When you’re ready to apply, you’ll need to visit the official Ontario government website and complete the online official form.`}
         </p>
-        <p className="text-lg text-[#1E0F62]">{`By using this Navigator tool, you’re taking a big step toward gaining access to medication coverage. Let’s get started!`}</p>
+        <p className="text-sm text-[#1E0F62]">{`By using this Navigator tool, you’re taking a big step toward gaining access to medication coverage. Let’s get started!`}</p>
       </div>
 
       <Link href="/disclaimer">
