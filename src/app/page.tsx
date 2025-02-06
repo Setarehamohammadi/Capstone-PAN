@@ -2,18 +2,18 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="h-full flex flex-col gap-4">
+    <main className="h-full flex flex-col gap-4 overflow-y-auto pb-11 ">
       <div className="flex flex-col gap-4 bg-[#FFFFFF] p-6 rounded-lg max-w-[700px]">
         <h1 className="text-2xl font-bold text-[#1E0F62]">{`Welcome to the Trillium Drug Program Application Navigator Tool!`}</h1>
         <p className="text-sm text-[#1E0F62]">{`This tool is designed to help you understand and navigate the application process for Ontario’s Trillium Drug Program (TDP). The TDP is a government program that provides financial support for prescription drug costs, especially for those with high medication expenses.`}</p>
         <h3 className="text-lg font-bold text-[#1E0F62]">{`What this tool offers:`}</h3>
-        <ul className="list-disc list-inside text-sm text-[#1E0F62]">
-          <li>
-            {`The tool is able to`}
+        <ul className="list-disc pl-4 text-sm text-[#1E0F62]">
+          <li >
+            {`The tool is able to `}
             <span className="font-bold">{`check your eligibility`}</span>
             {` to assess if you meet basic requirements for the TDP.`}
           </li>
-          <li>
+          <li >
             {`The navigator tool also offers`}
             <span className="font-bold">{` guidance`}</span>
             {` by breaking down the application process into simple steps, ensuring you know what you do at every stage.`}

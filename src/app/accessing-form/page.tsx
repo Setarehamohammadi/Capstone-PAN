@@ -40,7 +40,7 @@ export default function AccessingForm() {
           <div className="flex flex-col gap-4 items-center lg:w-[450px]">
             <Image
               src="/images/navigate_page.png"
-              alt="Step 1"
+              alt="Step 2"
               width={700}
               height={700}
             />
@@ -53,12 +53,31 @@ export default function AccessingForm() {
           </div>
         </div>
 
+        <h3 className="text-lg font-bold text-[#1E0F62]">{`Step 3: Select the Online Application`}</h3>
+        <div className="flex flex-col gap-4 items-center">
+          <div className="flex flex-col gap-4 items-center lg:w-[450px]">
+            <Image
+              src="/images/select_application.png"
+              alt="Step 3"
+              width={700}
+              height={700}
+            />
+          </div>
+          <div className="flex flex-col gap-4 lg:w-[450px]">
+            <p className="text-sm text-[#1E0F62]">
+              {`Under the “How to Apply” section, press the `}
+              <span className="font-bold">{`“Apply online”`}</span>
+              {` button to be directed to the application portal`}
+            </p>
+          </div>
+        </div>
+
         <h3 className="text-lg font-bold text-[#1E0F62]">{`Step 4: Choose Trillium Drug Program`}</h3>
         <div className="flex flex-col gap-4 items-center">
           <div className="flex flex-col gap-4 items-center lg:w-[450px]">
             <Image
               src="/images/choose_program.png"
-              alt="Step 1"
+              alt="Step 4"
               width={700}
               height={700}
             />
