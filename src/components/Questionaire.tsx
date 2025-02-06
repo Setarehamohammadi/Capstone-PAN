@@ -44,7 +44,7 @@ const questions: Question[] = [
     "id": 10,
     "title": "You must first have a valid Ontario Health Card.",
     "text": `<p className="text-sm text-[#1E0F62]"> You have indicated that you do not have an Ontario Health Card. Once you have obtained a valid Health Card, please revisit this tool.  </p> <p className="text-sm text-[#1E0F62]"> Please consult this resource: <Link href="https://www.ontario.ca/page/apply-ohip-and-get-health-card"> <button className="underline text-[#1E0F62]">https://www.ontario.ca/page/apply-ohip-and-get-health-card</button> </Link> . This page will describe the requirements for a Health Card and will help you obtain one.  </p>`,
-    "images": ["Yes", "Yes"],
+    "images": ["/images/confused.png"],
     "question": "",
     "options": {
       "Return to navigator": 7
@@ -76,7 +76,7 @@ const questions: Question[] = [
     "id": 12,
     "title": "You are below the program’s age requirement.",
     "text": `<p className=\"text-sm text-[#1E0F62]\">You have indicated that your age this calendar year is under 25 years old. Applicants to the Trillium Drug Program (TDP) must be 25 years old or older.</p>\n<p className=\"text-sm text-[#1E0F62]\">Ontario citizens who are under 25 years old are automatically given OHIP+ coverage. With OHIP+ coverage, the Ontario government will pay for your pre-exposure prophylaxis (PrEP) medication.</p>\n<p className=\"text-sm text-[#1E0F62]\">To learn more about OHIP+ please visit this government site: <Link href=\"https://www.ontario.ca/page/learn-about-ohip-plus\"><button className=\"underline text-[#1E0F62]\">https://www.ontario.ca/page/learn-about-ohip-plus</button></Link></p>\n<p className=\"text-sm text-[#1E0F62]\">You can access PrEP, using OHIP+ coverage, through Freddie: <Link href=\"https://www.gofreddie.com/\"><button className=\"underline text-[#1E0F62]\">https://www.gofreddie.com/</button></Link></p>`,
-    "images": ["Yes", "Yes"],
+    "images": ["/images/confused.png"],
     "question": "",
     "options": {
       "Return to navigator": 7
@@ -86,7 +86,7 @@ const questions: Question[] = [
     "id": 13,
     "title": "You are above the program’s age requirement.",
     "text": "<p className=\"text-sm text-[#1E0F62]\">You have indicated that your age this calendar year is above 64 years old. Applicants to the Trillium Drug Program (TDP) must be 64 years old or younger.</p>\n<p className=\"text-sm text-[#1E0F62]\">Ontario citizens who are 65 years and older are automatically enrolled in the Ontario Drug Benefit. The Ontario government will send you a letter regarding your enrollment 3 months before your 65th birthday.</p>\n<p className=\"text-sm text-[#1E0F62]\">For more information on the Ontario Drug Benefit, please visit this government website: <Link href=\"https://www.ontario.ca/page/get-coverage-prescription-drugs#section-0\"><button className=\"underline text-[#1E0F62]\">https://www.ontario.ca/page/get-coverage-prescription-drugs#section-0</button></Link></p>\n<p className=\"text-sm text-[#1E0F62]\">If you are turning 65 years old and require short-term free PrEP coverage, please visit the PrEPStart program. This program will give you 3-months of free PrEP access: <Link href=\"https://ontarioprep.ca/prepstart/\"><button className=\"underline text-[#1E0F62]\">https://ontarioprep.ca/prepstart/</button></Link></p>\n<p className=\"text-sm text-[#1E0F62]\">Individuals from low income households, who are 65 years and older, can apply to the Seniors Co-Payment Program. Through this program, your deductibles will be reduced to $2.00. For more information, please visit: <Link href=\"https://www.ontario.ca/page/seniors-ontario-drug-benefit-deductible-and-prescription-co-payment\"><button className=\"underline text-[#1E0F62]\">https://www.ontario.ca/page/seniors-ontario-drug-benefit-deductible-and-prescription-co-payment</button></Link></p>",
-    "images": ["Yes", "Yes"],
+    "images": ["/images/confused.png"],
     "question": "",
     "options": {
       "Return to navigator": 7
@@ -96,7 +96,7 @@ const questions: Question[] = [
     "id": 14,
     "title": "Do you have any type of insurance?",
     "text": `<p className=\"text-sm text-[#1E0F62]\">Great! Looks like you fall under the age requirements of the Trillium Drug Program (TDP).</p>\n<p className=\"text-sm text-[#1E0F62]\">Do you have any type of private insurance? There are many places where you might be receiving private insurance.</p>\n<p className=\"text-sm text-[#1E0F62]\">For example:</p>\n<ul className=\"list-disc pl-4 text-sm text-[#1E0F62]\">\n  <li className=\"text-sm text-[#1E0F62]\">If you have a job, you might be under a work insurance plan.</li>\n  <li className=\"text-sm text-[#1E0F62]\">If you are a student, your school may offer a health insurance plan.</li>\n  <li className=\"text-sm text-[#1E0F62]\">If you live with family, they also may have a private insurance plan.</li>\n</ul>\n<p className=\"text-sm text-[#1E0F62]\">If you are unsure if you have private insurance, you can contact the Human Resources department at your job, your school’s student service centre, and the family members that you live with.</p>\n<p className=\"text-sm text-[#1E0F62]\">Please choose the option below that describes your circumstances.</p>`,
-    "images": ["Yes", "Yes"],
+    "images": ["/images/happy.png"],
     "question": "Do you have any type of insurance?",
     "options": {
       "Yes, I have private insurance": 15,
@@ -119,7 +119,7 @@ const questions: Question[] = [
     "id": 16,
     "title": "This program might not be useful to you!",
     "text": "<p className=\"text-sm text-[#1E0F62]\">You have indicated that you receive complete private coverage for your prescription drug costs. If you are hoping to start using PrEP, you can go straight to the prescription process!</p>\n<p className=\"text-sm text-[#1E0F62]\">Use this link to schedule a consultation with a Freddie representative. They will be able to get you on PrEP and can help you in linking it to your private insurance plan: <Link href=\"https://www.gofreddie.com/\"><button className=\"underline text-[#1E0F62]\">https://www.gofreddie.com/</button></Link></p>",
-    "images": ["Yes", "Yes"],
+    "images": ["/images/confused.png"],
     "question": "",
     "options": {
       "Return to navigator": 7
