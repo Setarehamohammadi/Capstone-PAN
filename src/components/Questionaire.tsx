@@ -8,6 +8,7 @@ type Question = {
     title: string;
     text: string;
     images: string[];
+    content_orientation?: "horizontal" | "vertical";
     question: string;
     options: {
         [key: string]: number;
@@ -46,6 +47,7 @@ const questions: Question[] = [
     "text": `<p className="text-sm text-[#1E0F62]"> You have indicated that you do not have an Ontario Health Card. Once you have obtained a valid Health Card, please revisit this tool.  </p> <p className="text-sm text-[#1E0F62]"> Please consult this resource: <Link href="https://www.ontario.ca/page/apply-ohip-and-get-health-card"> <button className="underline text-[#1E0F62]">https://www.ontario.ca/page/apply-ohip-and-get-health-card</button> </Link> . This page will describe the requirements for a Health Card and will help you obtain one.  </p>`,
     "images": ["/images/confused.png"],
     "question": "",
+    "content_orientation": "horizontal",
     "options": {
       "Return to navigator": 7
     }
@@ -56,6 +58,7 @@ const questions: Question[] = [
     "text": `<p className=\"text-sm text-[#1E0F62]\">You have indicated that your Health Card has expired or will expire in the next two months. Please review your situation. Once you have obtained a valid Health Card, please revisit this tool.</p>\n<p className=\"text-sm text-[#1E0F62]\">The Ontario government recommends renewing your card 90 days before expiration. If your card is expired or will expire within the next two months, consider renewing it to avoid issues later in the TDP application process. Please visit the following link to set up an appointment: <Link href=\"http://www.ontario.ca/page/health-card-renewal\"><button className=\"underline text-[#1E0F62]\">Health Card Renewal</button></Link>.</p>\n<p className=\"text-sm text-[#1E0F62]\">Link to start page</p>`,
     "images": ["/images/confused.png"],
     "question": "",
+    "content_orientation": "horizontal",
     "options": {
       "Return to navigator": 7
     }
@@ -87,6 +90,7 @@ const questions: Question[] = [
     "title": "You are above the program’s age requirement.",
     "text": "<p className=\"text-sm text-[#1E0F62]\">You have indicated that your age this calendar year is above 64 years old. Applicants to the Trillium Drug Program (TDP) must be 64 years old or younger.</p>\n<p className=\"text-sm text-[#1E0F62]\">Ontario citizens who are 65 years and older are automatically enrolled in the Ontario Drug Benefit. The Ontario government will send you a letter regarding your enrollment 3 months before your 65th birthday.</p>\n<p className=\"text-sm text-[#1E0F62]\">For more information on the Ontario Drug Benefit, please visit this government website: <Link href=\"https://www.ontario.ca/page/get-coverage-prescription-drugs#section-0\"><button className=\"underline text-[#1E0F62]\">https://www.ontario.ca/page/get-coverage-prescription-drugs#section-0</button></Link></p>\n<p className=\"text-sm text-[#1E0F62]\">If you are turning 65 years old and require short-term free PrEP coverage, please visit the PrEPStart program. This program will give you 3-months of free PrEP access: <Link href=\"https://ontarioprep.ca/prepstart/\"><button className=\"underline text-[#1E0F62]\">https://ontarioprep.ca/prepstart/</button></Link></p>\n<p className=\"text-sm text-[#1E0F62]\">Individuals from low income households, who are 65 years and older, can apply to the Seniors Co-Payment Program. Through this program, your deductibles will be reduced to $2.00. For more information, please visit: <Link href=\"https://www.ontario.ca/page/seniors-ontario-drug-benefit-deductible-and-prescription-co-payment\"><button className=\"underline text-[#1E0F62]\">https://www.ontario.ca/page/seniors-ontario-drug-benefit-deductible-and-prescription-co-payment</button></Link></p>",
     "images": ["/images/confused.png"],
+    "content_orientation": "horizontal",
     "question": "",
     "options": {
       "Return to navigator": 7
@@ -97,6 +101,7 @@ const questions: Question[] = [
     "title": "Do you have any type of insurance?",
     "text": `<p className=\"text-sm text-[#1E0F62]\">Great! Looks like you fall under the age requirements of the Trillium Drug Program (TDP).</p>\n<p className=\"text-sm text-[#1E0F62]\">Do you have any type of private insurance? There are many places where you might be receiving private insurance.</p>\n<p className=\"text-sm text-[#1E0F62]\">For example:</p>\n<ul className=\"list-disc pl-4 text-sm text-[#1E0F62]\">\n  <li className=\"text-sm text-[#1E0F62]\">If you have a job, you might be under a work insurance plan.</li>\n  <li className=\"text-sm text-[#1E0F62]\">If you are a student, your school may offer a health insurance plan.</li>\n  <li className=\"text-sm text-[#1E0F62]\">If you live with family, they also may have a private insurance plan.</li>\n</ul>\n<p className=\"text-sm text-[#1E0F62]\">If you are unsure if you have private insurance, you can contact the Human Resources department at your job, your school’s student service centre, and the family members that you live with.</p>\n<p className=\"text-sm text-[#1E0F62]\">Please choose the option below that describes your circumstances.</p>`,
     "images": ["/images/happy.png"],
+    "content_orientation": "horizontal",
     "question": "Do you have any type of insurance?",
     "options": {
       "Yes, I have private insurance": 15,
@@ -120,6 +125,7 @@ const questions: Question[] = [
     "title": "This program might not be useful to you!",
     "text": "<p className=\"text-sm text-[#1E0F62]\">You have indicated that you receive complete private coverage for your prescription drug costs. If you are hoping to start using PrEP, you can go straight to the prescription process!</p>\n<p className=\"text-sm text-[#1E0F62]\">Use this link to schedule a consultation with a Freddie representative. They will be able to get you on PrEP and can help you in linking it to your private insurance plan: <Link href=\"https://www.gofreddie.com/\"><button className=\"underline text-[#1E0F62]\">https://www.gofreddie.com/</button></Link></p>",
     "images": ["/images/confused.png"],
+    "content_orientation": "horizontal",
     "question": "",
     "options": {
       "Return to navigator": 7
@@ -151,6 +157,7 @@ const questions: Question[] = [
     "title": "Household Composition",
     "text": "<p className=\"text-sm text-[#1E0F62]\">When you apply to the Trillium Drug Program, you apply for your entire household. Households are made up of individuals, couples, or families with shared finances. After selecting the option most accurate to your living situation, you will be guided through a series of questions to confirm what kind of household you can apply as.</p>",
     "images": ["/images/id-19.png"],
+    "content_orientation": "vertical",
     "question": "Household Composition",
     "options": {
       "I live alone": 20,
@@ -291,6 +298,7 @@ const questions: Question[] = [
     "title": "Door-to-Door Delivery",
     "text": "<p className=\"text-sm text-[#1E0F62]\">This section helps confirm whether you are eligible for door-to-door delivery for correspondence related to your application.</p>\n<p className=\"text-sm text-[#1E0F62]\">What is Door-to-Door Delivery?<br />Door-to-door delivery means your mail is delivered directly to your residence. This includes:</p>\n<ul className=\"list-disc pl-4 text-sm text-[#1E0F62]\">\n  <li className=\"text-sm text-[#1E0F62]\">A mailbox attached to your home.</li>\n  <li className=\"text-sm text-[#1E0F62]\">A mail slot in your door.</li>\n  <li className=\"text-sm text-[#1E0F62]\">A community mailbox located in your building or close to your property.</li>\n</ul>\n<p className=\"text-sm text-[#1E0F62]\">If your mail is sent to a centralized location, such as a PO Box, Rural Route, or General Delivery, you do not have door-to-door delivery.</p>",
     "images": ["/images/id-32.png"],
+    "content_orientation": "vertical",
     "question": "Can you receive door-to-door delivery?",
     "options": {
       "I can receive door-to-door delivery": 34,
@@ -353,6 +361,7 @@ const questions: Question[] = [
     "title": "Additional Insurance Coverage",
     "text": "<p className=\"text-sm text-[#1E0F62]\">In this section, you will indicate whether you have any form of private insurance. This information is important as it impacts how the TDP calculates your eligibility and deductible. Private insurance coverage can come from various sources, including work, school, or other private plans. Here’s how to identify if you have coverage:</p>\n<p className=\"text-sm text-[#1E0F62]\">Work Insurance:<br />Many employers provide health insurance as part of their benefits package. Check your employment contract, contact your HR department, or look for health benefits information on your employer's online portal.</p>\n<p className=\"text-sm text-[#1E0F62]\">School Insurance:<br />If you are a student, your school may offer health insurance through a student association or union. Check your tuition statements or contact your school’s health services office to confirm your coverage.</p>\n<p className=\"text-sm text-[#1E0F62]\">Other Private Insurance:<br />This includes plans you or your family may have purchased independently, such as extended health plans or family insurance policies. Review your policy documents, check your insurance provider's website, or contact them directly.</p>\n<p className=\"text-sm text-[#1E0F62]\">Once you confirm your insurance coverage, provide the details in the relevant fields on the TDP application. If you are unsure about your coverage, contact your HR department, school, or insurance provider for assistance before proceeding.</p>",
     "images": ["/images/id-38.png"],
+    "content_orientation": "vertical",
     "question": "Do you have insurance?",
     "options": {
       "I have some form of insurance": 62,
@@ -366,6 +375,7 @@ const questions: Question[] = [
     "title": "Additional Insurance Coverage",
     "text": "<p className=\"text-sm text-[#1E0F62]\">On Page 3 of the application, if your situation requires you to select the ‘NO’ option, simply click the box corresponding to this choice. Once selected, review the page to ensure the correct option is marked, then proceed to submit the page.</p>",
     "images": ["/images/id-39.png"],
+    "content_orientation": "vertical",
     "question": "Have you selected the correct option for additional insurance coverage and successfully submitted Page 3?",
     "options": {
       "I have selected the correct option and successfully submitted Page 3": 44
@@ -408,6 +418,7 @@ const questions: Question[] = [
     "title": "Lawfully Authorized Representative",
     "text": "<p className=\"text-sm text-[#1E0F62]\">Page 4 of the TDP application requires you to indicate whether you are a lawfully authorized representative signing the form on behalf of a household member or if you are signing for yourself. A lawfully authorized representative is someone who has the legal authority to act on behalf of another person in making decisions and signing official documents. This authority is typically granted through legal processes or documentation. For the purposes of the application, lawfully authorized representatives include:</p>\n<ul>\n  <li className=\"text-sm text-[#1E0F62]\">Guardian of Property: Someone appointed by a court to manage the financial affairs of an individual who cannot do so themselves.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Guardian of Person: Someone appointed to make personal care decisions, such as healthcare, for an individual unable to make these decisions.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Attorney for Property under a Continuing Power of Attorney (Property): A person legally authorized through a Power of Attorney document to manage another individual’s financial matters, even if the individual becomes incapacitated.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Attorney for Personal Care under a Power of Attorney (Personal Care): Someone authorized to make personal and healthcare decisions for another individual under a Power of Attorney document.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Public Guardian and Trustee: A government-appointed representative who manages the affairs of individuals unable to make decisions and without an available private representative.</li>\n</ul>\n<p className=\"text-sm text-[#1E0F62]\">To be considered a lawfully authorized representative, you must have valid legal documentation proving your authority in one of these roles. If you are not one of these individuals, you cannot sign the TDP application on someone else’s behalf.</p>",
     "images": ["/images/id-44.png"],
+    "content_orientation": "vertical",
     "question": "Who are you signing for?",
     "options": {
       "Signing on behalf of someone else": 45,
@@ -439,6 +450,7 @@ const questions: Question[] = [
     "title": "Application Review",
     "text": "<p className=\"text-sm text-[#1E0F62]\">Page 5 of the TDP application displays a summary of all the information you have inputted so far. This is your opportunity to carefully review your application for accuracy before proceeding. Take a moment to review all sections of your application to ensure the information is correct. If you notice any errors, click the ‘Edit’ button next to the relevant section to make the necessary changes. Once you have reviewed and confirmed that all information is accurate—or after making and saving your edits—press the ‘Continue’ button to proceed to the next step.</p>",
     "images": ["/images/id-47.png"],
+    "content_orientation": "vertical",
     "question": "Have you reviewed your application, made any necessary changes, and pressed Continue?",
     "options": {
       "Yes": 48
@@ -480,6 +492,7 @@ const questions: Question[] = [
     "title": "Thank you – Application Submission Confirmation",
     "text": "<p className=\"text-sm text-[#1E0F62]\">Congratulations! You have successfully submitted your Trillium Drug Program (TDP) application.</p>\n<p className=\"text-sm text-[#1E0F62]\"><span className=\"font-bold\">What Happens Next?</span><br />Processing Timeline: The typical processing time for TDP applications is 4 to 6 weeks. You may receive updates sooner if additional information or documentation is required.</p>\n<p className=\"text-sm text-[#1E0F62]\">Notification of Approval or Next Steps: You will be contacted by mail or email with the results of your application or instructions for any further actions.</p>\n<p className=\"text-sm text-[#1E0F62]\"><span className=\"font-bold\">Need Assistance?</span><br />If you have any questions about your application status or require additional support, use the following resources:</p>\n<p className=\"text-sm text-[#1E0F62]\">Trillium Drug Program Contact Information:<br />Phone: 1-800-575-5386<br />Email: trillium@ontariodrugbenefit.ca</p>\n<p className=\"text-sm text-[#1E0F62]\">External Resources for Assistance:<br />Visit the TDP Website: <Link href=\"https://www.ontario.ca/page/get-help-high-prescription-drug-costs\"><button className=\"underline text-[#1E0F62]\">https://www.ontario.ca/page/get-help-high-prescription-drug-costs</button></Link><br />Contact the Canada Revenue Agency (CRA): <Link href=\"https://www.canada.ca/en/revenue-agency.html\"><button className=\"underline text-[#1E0F62]\">https://www.canada.ca/en/revenue-agency.html</button></Link></p>",
     "images": ["/images/id-51.png"],
+    "content_orientation": "horizontal",
     "question": "",
     "options": {
       "Go to start page": 999
@@ -510,6 +523,7 @@ const questions: Question[] = [
     "title": "Door-to-Door Delivery",
     "text": "<p className=\"text-sm text-[#1E0F62]\">This section helps confirm whether you are eligible for door-to-door delivery for correspondence related to your application.</p>\n<p className=\"text-sm text-[#1E0F62]\"><span className=\"font-bold\">What is Door-to-Door Delivery?</span><br />Door-to-door delivery means your mail is delivered directly to your residence. This includes:</p>\n<ul>\n  <li className=\"text-sm text-[#1E0F62]\">A mailbox attached to your home.</li>\n  <li className=\"text-sm text-[#1E0F62]\">A mail slot in your door.</li>\n  <li className=\"text-sm text-[#1E0F62]\">A community mailbox located in your building or close to your property.</li>\n</ul>\n<p className=\"text-sm text-[#1E0F62]\">If your mail is sent to a centralized location, such as a PO Box, Rural Route, or General Delivery, you do not have door-to-door delivery.</p>",
     "images": ["/images/id-54.png"],
+    "content_orientation": "vertical",
     "question": "Can you receive door-to-door delivery?",
     "options": {
       "I can receive door-to-door delivery": 56,
@@ -572,6 +586,7 @@ const questions: Question[] = [
     "title": "Additional Insurance Coverage",
     "text": "<p className=\"text-sm text-[#1E0F62]\">In this section, you will indicate whether you have any form of private insurance. This information is important as it impacts how the TDP calculates your eligibility and deductible. Private insurance coverage can come from various sources, including work, school, or other private plans. Here’s how to identify if you have coverage:</p>\n<p className=\"text-sm text-[#1E0F62]\"><span className=\"font-bold\">Work Insurance:</span><br />Many employers provide health insurance as part of their benefits package. Check your employment contract, contact your HR department, or look for health benefits information on your employer's online portal.</p>\n<p className=\"text-sm text-[#1E0F62]\"><span className=\"font-bold\">School Insurance:</span><br />If you are a student, your school may offer health insurance through a student association or union. Check your tuition statements or contact your school’s health services office to confirm your coverage.</p>\n<p className=\"text-sm text-[#1E0F62]\"><span className=\"font-bold\">Other Private Insurance:</span><br />This includes plans you or your family may have purchased independently, such as extended health plans or family insurance policies. Review your policy documents, check your insurance provider's website, or contact them directly.</p>\n<p className=\"text-sm text-[#1E0F62]\">Once you confirm your insurance coverage, provide the details in the relevant fields on the TDP application. If you are unsure about your coverage, contact your HR department, school, or insurance provider for assistance before proceeding.</p>",
     "images": ["/images/id-60.png"],
+    "content_orientation": "vertical",
     "question": "Do you have any type of insurance?",
     "options": {
       "I have some form of insurance": 62,
@@ -585,6 +600,7 @@ const questions: Question[] = [
     "title": "Additional Insurance Coverage",
     "text": "<p className=\"text-sm text-[#1E0F62]\">On Page 3 of the application, if your situation requires you to select the ‘NO’ option, simply click the box corresponding to this choice. Once selected, review the page to ensure the correct option is marked, then proceed to submit the page.</p>",
     "images": ["/images/id-61.png"],
+    "content_orientation": "vertical",
     "question": "Have you completed Page 3?",
     "options": {
       "I have selected the correct option and successfully submitted Page 3": 66
@@ -628,6 +644,7 @@ const questions: Question[] = [
     "title": "Lawfully Authorized Representative",
     "text": "<p className=\"text-sm text-[#1E0F62]\">Page 4 of the TDP application requires you to indicate whether you are a lawfully authorized representative signing the form on behalf of a household member or if you are signing for yourself. A lawfully authorized representative has the legal authority to act on behalf of another person. For the purposes of the application, this includes:</p>\n<ul className=\"list-disc pl-4 text-sm text-[#1E0F62]\">\n  <li className=\"text-sm text-[#1E0F62]\">Guardian of Property: Appointed by a court to manage someone’s financial affairs.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Guardian of Person: Appointed to make personal care decisions for someone unable to do so.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Attorney for Property under a Continuing Power of Attorney (Property): Legally authorized to manage another’s financial matters.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Attorney for Personal Care under a Power of Attorney (Personal Care): Authorized to make personal and healthcare decisions.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Public Guardian and Trustee: A government-appointed representative for those unable to make decisions.</li>\n</ul>\n<p className=\"text-sm text-[#1E0F62]\">To be considered a lawfully authorized representative, you must have valid legal documentation proving your authority. If you are not one of these individuals, you cannot sign the TDP application on someone else’s behalf.</p>",
     "images": ["/images/id-66.png"],
+    "content_orientation": "vertical",
     "question": "Are you signing this application on behalf of someone else or completing it for yourself?",
     "options": {
       "Signing on behalf of someone else": 90,
@@ -650,6 +667,7 @@ const questions: Question[] = [
     "title": "Lawfully Authorized Representative: Both Partners",
     "text": "<p className=\"text-sm text-[#1E0F62]\">If you are representing both partners included in the household for the TDP application, you will need to complete the required fields for each person, specify your legal authority, and upload supporting legal documents. Follow these instructions:</p>\n<ul className=\"list-disc pl-4 text-sm text-[#1E0F62]\">\n  <li className=\"text-sm text-[#1E0F62]\">Indicate Who You Are Representing: In the 'Person(s) you are signing for?' section, select the individuals you are authorized to represent (e.g., All, or individual names).</li>\n  <li className=\"text-sm text-[#1E0F62]\">Specify Your Legal Authorization (Required): Choose from options such as Guardian of Property, Guardian of Person, Continuing Power of Attorney (Property), Power of Attorney (Personal Care), or Public Guardian and Trustee.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Provide Representative Information: Enter your first and last name.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Upload Proof of Legal Representation Documents: Upload the legal documents that authorize you to act on behalf of the household members.</li>\n</ul>\n<p className=\"text-sm text-[#1E0F62]\">Be sure to click ‘Add a lawfully authorized representative’ at the bottom of the page when finished.</p>",
     "images": ["/images/id-68.png"],
+    "content_orientation": "vertical",
     "question": "Have you entered all required information and added a lawfully authorized representative?",
     "options": {
       "I have inputted all necessary information and have pressed Add a lawfully authorized representative": 71
@@ -660,6 +678,7 @@ const questions: Question[] = [
     "title": "Lawfully Authorized Representative: One Person",
     "text": "<p className=\"text-sm text-[#1E0F62]\">If you are representing only one person in the household for the TDP application, you will need to complete the required fields for that person, specify your legal authority, and upload supporting legal documents. Follow these steps:</p>\n<ul className=\"list-disc pl-4 text-sm text-[#1E0F62]\">\n  <li className=\"text-sm text-[#1E0F62]\">Indicate Who You Are Representing: Select the individual you are authorized to represent.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Specify Your Legal Authorization (Required): Choose from Guardian of Property, Guardian of Person, Continuing Power of Attorney (Property), Power of Attorney (Personal Care), or Public Guardian and Trustee.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Provide Representative Information: Enter your first and last name.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Upload Proof of Legal Representation Documents: Upload the required documents.</li>\n</ul>\n<p className=\"text-sm text-[#1E0F62]\">Click ‘Continue’ after entering all information.</p>",
     "images": ["/images/id-69.png"],
+    "content_orientation": "vertical",
     "question": "Have you entered all required information and successfully submitted Page 4?",
     "options": {
       "Yes": 71
@@ -670,6 +689,7 @@ const questions: Question[] = [
     "title": "Lawfully Authorized Representative",
     "text": "<p className=\"text-sm text-[#1E0F62]\">If you select ‘NO’ on Page 4 of the application, this means you are not acting as a lawfully authorized representative for any household member. Please select ‘Continue’ to move on.</p>",
     "images": ["/images/id-70.png"],
+    "content_orientation": "vertical",
     "question": "Have you entered all required information and successfully submitted Page 4?",
     "options": {
       "Yes": 71
@@ -680,6 +700,7 @@ const questions: Question[] = [
     "title": "Application Review",
     "text": "<p className=\"text-sm text-[#1E0F62]\">Page 5 of the TDP application displays a summary of all the information you have input so far. This is your opportunity to carefully review your application for accuracy before proceeding. Review all sections to ensure the information is correct. If you notice any errors, click the ‘Edit’ button next to the relevant section to make changes. Once you have reviewed and confirmed that all information is accurate, press the ‘Continue’ button to proceed to the next step.</p>",
     "images": ["/images/id-71.png"],
+    "content_orientation": "vertical",
     "question": "Have you reviewed your application, made any necessary changes, and pressed Continue?",
     "options": {
       "Yes": 72
@@ -753,6 +774,7 @@ const questions: Question[] = [
     "title": "Door-to-Door Delivery",
     "text": "<p className=\"text-sm text-[#1E0F62]\">This section helps confirm whether you are eligible for door-to-door delivery for correspondence related to your application.</p>\n<p className=\"text-sm text-[#1E0F62]\">What is Door-to-Door Delivery?<br />It means your mail is delivered directly to your residence. This includes:</p>\n<ul className=\"list-disc pl-4 text-sm text-[#1E0F62]\">\n  <li className=\"text-sm text-[#1E0F62]\">A mailbox attached to your home.</li>\n  <li className=\"text-sm text-[#1E0F62]\">A mail slot in your door.</li>\n  <li className=\"text-sm text-[#1E0F62]\">A community mailbox located in your building or near your property.</li>\n</ul>",
     "images": ["/images/id-78.png"],
+    "content_orientation": "vertical",
     "question": "Are you able to receive door-to-door delivery for correspondence?",
     "options": {
       "I can receive door-to-door delivery": 80,
@@ -815,6 +837,7 @@ const questions: Question[] = [
     "title": "Additional Insurance Coverage",
     "text": "<p className=\"text-sm text-[#1E0F62]\">In this section, you will indicate whether you have any form of private insurance. This information is important as it impacts how the TDP calculates your eligibility and deductible. Private insurance can come from various sources, including work, school, or other private plans. Here’s how to identify if you have coverage:</p>\n<p className=\"text-sm text-[#1E0F62]\">Work Insurance: Check your employment contract, contact HR, or review your employer's online portal.</p>\n<p className=\"text-sm text-[#1E0F62]\">School Insurance: If you are a student, check your tuition statements or contact your school’s health services.</p>\n<p className=\"text-sm text-[#1E0F62]\">Other Private Insurance: Review policy documents or contact your insurance provider directly.</p>\n<p className=\"text-sm text-[#1E0F62]\">Once confirmed, provide the details in the relevant fields on the TDP application. If unsure, contact your HR department, school, or insurance provider.</p>\n<p className=\"text-sm text-[#1E0F62]\">Does anyone in your household have private insurance coverage?</p>",
     "images": ["/images/id-84.png"],
+    "content_orientation": "vertical",
     "question": "Does anyone in your household have private insurance coverage?",
     "options": {
       "I have some form of insurance": 85,
@@ -838,6 +861,7 @@ const questions: Question[] = [
     "title": "Additional Insurance Coverage",
     "text": "<p className=\"text-sm text-[#1E0F62]\">On Page 3 of the application, if your situation requires you to select the ‘NO’ option, simply click the box corresponding to this choice. Once selected, review the page to ensure the correct option is marked, then proceed to submit the page.</p>",
     "images": ["/images/id-86.png"],
+    "content_orientation": "vertical",
     "question": "Have you selected the appropriate option and submitted Page 3?",
     "options": {
       "Yes": 89
@@ -871,6 +895,7 @@ const questions: Question[] = [
     "title": "Lawfully Authorized Representative",
     "text": "<p className=\"text-sm text-[#1E0F62]\">Page 4 of the TDP application requires you to indicate whether you are a lawfully authorized representative signing the form on behalf of a household member or if you are signing for yourself. A lawfully authorized representative has the legal authority to act on behalf of another person. This includes:</p>\n<ul className=\"list-disc pl-4 text-sm text-[#1E0F62]\">\n  <li className=\"text-sm text-[#1E0F62]\">Guardian of Property</li>\n  <li className=\"text-sm text-[#1E0F62]\">Guardian of Person</li>\n  <li className=\"text-sm text-[#1E0F62]\">Attorney for Property under a Continuing Power of Attorney (Property)</li>\n  <li className=\"text-sm text-[#1E0F62]\">Attorney for Personal Care under a Power of Attorney (Personal Care)</li>\n  <li className=\"text-sm text-[#1E0F62]\">Public Guardian and Trustee</li>\n</ul>\n<p className=\"text-sm text-[#1E0F62]\">You must have valid legal documentation proving your authority. If not, you cannot sign the application on someone else’s behalf.</p>",
     "images": ["/images/id-89.png"],
+    "content_orientation": "vertical",
     "question": "Are you signing this application on behalf of someone else or completing it for yourself?",
     "options": {
       "Signing on behalf of someone else": 90,
@@ -893,6 +918,7 @@ const questions: Question[] = [
     "title": "Lawfully Authorized Representative: Multiple People",
     "text": "<p className=\"text-sm text-[#1E0F62]\">If you are representing multiple people in the household for the TDP application, you must complete the required fields for each person, specify your legal authority, and upload supporting legal documents. Follow these steps:</p>\n<ul className=\"list-disc pl-4 text-sm text-[#1E0F62]\">\n  <li className=\"text-sm text-[#1E0F62]\">Indicate Who You Are Representing: Select the individuals you are authorized to represent (e.g., All or individual names).</li>\n  <li className=\"text-sm text-[#1E0F62]\">Specify Your Legal Authorization (Required): Choose from Guardian of Property, Guardian of Person, Continuing Power of Attorney (Property), Power of Attorney (Personal Care), or Public Guardian and Trustee.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Provide Representative Information: Enter your first and last name.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Upload Proof of Legal Representation Documents: Upload the necessary documents.</li>\n</ul>\n<p className=\"text-sm text-[#1E0F62]\">Click ‘Add a lawfully authorized representative’ when finished to add another person if needed.</p>",
     "images": ["/images/id-91.png"],
+    "content_orientation": "vertical",
     "question": "Have you provided all required information and added the lawfully authorized representative(s)?",
     "options": {
       "Yes": 92
@@ -914,6 +940,7 @@ const questions: Question[] = [
     "title": "Lawfully Authorized Representative: One Person",
     "text": "<p className=\"text-sm text-[#1E0F62]\">If you are representing only one person in the household for the TDP application, complete the required fields for that person, specify your legal authority, and upload supporting legal documents. Follow these steps:</p>\n<ul className=\"list-disc pl-4 text-sm text-[#1E0F62]\">\n  <li className=\"text-sm text-[#1E0F62]\">Indicate Who You Are Representing: Select the individual.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Specify Your Legal Authorization (Required): Choose from Guardian of Property, Guardian of Person, Continuing Power of Attorney (Property), Power of Attorney (Personal Care), or Public Guardian and Trustee.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Provide Representative Information: Enter your first and last name.</li>\n  <li className=\"text-sm text-[#1E0F62]\">Upload Proof of Legal Representation Documents: Upload the required documents.</li>\n</ul>\n<p className=\"text-sm text-[#1E0F62]\">Click ‘Continue’ after entering all information.</p>",
     "images": ["/images/id-93.png"],
+    "content_orientation": "vertical",
     "question": "Have you entered all required information and successfully submitted Page 4?",
     "options": {
       "Yes": 95
@@ -924,6 +951,7 @@ const questions: Question[] = [
     "title": "Lawfully Authorized Representative",
     "text": "<p className=\"text-sm text-[#1E0F62]\">If you select ‘NO’ on Page 4 of the application, this means you are not acting as a lawfully authorized representative for any household member. Please select ‘Continue’ to move on.</p>",
     "images": ["/images/id-94.png"],
+    "content_orientation": "vertical",
     "question": "Have you entered all required information and successfully submitted Page 4?",
     "options": {
       "Yes": 95
@@ -934,6 +962,7 @@ const questions: Question[] = [
     "title": "Application Review",
     "text": "<p className=\"text-sm text-[#1E0F62]\">Page 5 of the TDP application displays a summary of all the information you have input so far. This is your opportunity to carefully review your application for accuracy before proceeding. Review all sections and click the ‘Edit’ button next to any section you need to change. Once all information is confirmed accurate, press the ‘Continue’ button to proceed to the next step.</p>",
     "images": ["/images/id-95.png"],
+    "content_orientation": "vertical",
     "question": "Have you reviewed your application, made any necessary changes, and pressed Continue?",
     "options": {
       "Yes": 96
@@ -1009,8 +1038,8 @@ export default function Questionaire() {
         <div key={key} className="flex flex-col gap-4"> 
           <h1 className="text-2xl font-bold text-[#1E0F62]">{currentQuestion.title}</h1>
           <p className="text-[#1E0F62]">{currentQuestion.question}</p>
-          <div className="flex lg:flex-row flex-col gap-4 justify-center items-center">
-            <Image src={currentQuestion.images[0]} alt="Question Image" width={100} height={100} />
+          <div className={`flex ${currentQuestion.content_orientation === "horizontal" ? "lg:flex-row flex-col gap-4 justify-center items-center" : "flex-col gap-4"}`}>
+            <Image src={currentQuestion.images[0]} alt="Question Image" width={currentQuestion.content_orientation === "horizontal" ? 100 : 700} height={currentQuestion.content_orientation === "horizontal" ? 100 : 700} />
             <div>
               {parse(currentQuestion.text)}
             </div>
