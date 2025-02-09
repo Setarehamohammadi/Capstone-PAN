@@ -80,6 +80,7 @@ const questions: Question[] = [
     "title": "You are below the program’s age requirement.",
     "text": `<p className=\"text-sm text-[#1E0F62]\">You have indicated that your age this calendar year is under 25 years old. Applicants to the Trillium Drug Program (TDP) must be 25 years old or older.</p>\n<p className=\"text-sm text-[#1E0F62]\">Ontario citizens who are under 25 years old are automatically given OHIP+ coverage. With OHIP+ coverage, the Ontario government will pay for your pre-exposure prophylaxis (PrEP) medication.</p>\n<p className=\"text-sm text-[#1E0F62]\">To learn more about OHIP+ please visit this government site: <Link href=\"https://www.ontario.ca/page/learn-about-ohip-plus\"><button className=\"underline text-[#1E0F62]\">https://www.ontario.ca/page/learn-about-ohip-plus</button></Link></p>\n<p className=\"text-sm text-[#1E0F62]\">You can access PrEP, using OHIP+ coverage, through Freddie: <Link href=\"https://www.gofreddie.com/\"><button className=\"underline text-[#1E0F62]\">https://www.gofreddie.com/</button></Link></p>`,
     "images": ["/images/confused.png"],
+    "content_orientation": "horizontal",
     "question": "",
     "options": {
       "Return to navigator": 7
