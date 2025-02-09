@@ -640,22 +640,22 @@ const questions: Question[] = [
       },
       {
         text: '<p className="text-sm text-[#1E0F62]">Review the suggested date provided based on your answers.</p>\n',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help decide on your enrollment start date:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date.<br />Review the suggested date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help decide on your enrollment start date:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date.<br />Review the suggested date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help decide on your enrollment start date:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date.<br />Review the suggested date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -991,7 +991,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]"><span className="font-bold">Adding Another Household Member</span><br />If you need to add another person to your household information:</p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Click the "Add a household member" button.</li>\n  <li className="text-sm text-[#1E0F62]">Fill in their first name and last name.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">Selecting the Relationship</span><br />You\'ll then be asked about your relationship with this person. Here are the options explained simply:</p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Spouse: Someone you are married to or living with as if married (in a conjugal relationship). Typically, you must have lived together for at least a year, share a child, or have a legal cohabitation agreement.</li>\n  <li className="text-sm text-[#1E0F62]">Parent: Your father, mother, or guardian. A student relying on a parent (or grandparent/legal guardian) for support can be included even if they don’t live with you.</li>\n  <li className="text-sm text-[#1E0F62]">Child: Your son or daughter. Students who depend on you or another guardian for support can be counted even if they do not live with you full-time.</li>\n  <li className="text-sm text-[#1E0F62]">Grandparent: The parent of your parent. If a grandparent is a student relying on support, they don\'t need to live with you to be included.</li>\n  <li className="text-sm text-[#1E0F62]">Grandchild: The child of your son or daughter. Even if they live elsewhere, they can be included if they depend on family support.</li>\n  <li className="text-sm text-[#1E0F62]">Other Ancestor: Other older relatives (e.g., great-grandparents) who may not fit the other categories but, if a student depending on family support, can be included.</li>\n  <li className="text-sm text-[#1E0F62]">Great Grandchild: The child of your grandchild, subject to the same support rules.</li>\n  <li className="text-sm text-[#1E0F62]">Child Under Legal Guardianship: A child for whom someone else (not a parent) is legally responsible. They can be included if they depend on you or another guardian for support.</li>\n  <li className="text-sm text-[#1E0F62]">Legal Guardian: Someone with legal authority to care for another person; you can add those under your care as household members.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">Additional Question About Household Member (Non-Spouse)</span><br />For any household member who is not a spouse, you will be asked: "Does [Name] live with you and depend on you or other household members for support or do you depend on them for support?" (Note: The living-together requirement does not apply for a student dependent on a parent, grandparent, or legal guardian.)</p>\n<p className="text-sm text-[#1E0F62]">For a Spouse, the form will ask you to confirm that your relationship meets the definition above.</p>\n<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here.</p>\n<p className="text-sm text-[#1E0F62]">If you have finished, click Continue.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1022,7 +1022,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">If your mailing address is a Rural Route, PO Box, or General Delivery (select "Yes"):</p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Enter your Rural Route, PO Box, or General Delivery address (e.g., Rural Route 3 or PO Box 456).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town (e.g., Toronto).</li>\n  <li className="text-sm text-[#1E0F62]">Select Ontario as the Province from the dropdown menu.</li>\n  <li className="text-sm text-[#1E0F62]">Enter your Postal Code in the format A1A 1A1.</li>\n  <li className="text-sm text-[#1E0F62]">Optionally, enter your Street Number and Street Name.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">Note:</span> If you select "Yes", you will also need to provide a Residential Address in the following fields:</p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Enter your Street Number and Street Name (e.g., 456 Elm Avenue).</li>\n  <li className="text-sm text-[#1E0F62]">If applicable, add your Unit Number (e.g., Unit 301).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town and select Ontario as the Province.</li>\n  <li className="text-sm text-[#1E0F62]">Provide your Postal Code in the format A1A 1A1.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Where to Find It: Use any official documentation or utility bill that confirms your mailing address.</p>\n<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1037,7 +1037,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">If your mailing address is a standard street address (select "No"):</p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Enter your Street Number and Street Name (e.g., 123 Main Street).</li>\n  <li className="text-sm text-[#1E0F62]">If applicable, include your Unit Number (e.g., Unit 201).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town (e.g., Ottawa).</li>\n  <li className="text-sm text-[#1E0F62]">Select Ontario as the Province from the dropdown menu.</li>\n  <li className="text-sm text-[#1E0F62]">Enter your Postal Code in the format A1A 1A1.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1052,7 +1052,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">Understanding TDP Deductibles<br />When you join the Trillium Drug Program (TDP), you must pay a certain amount of money each year (called a deductible) before TDP helps with your prescription costs. This yearly deductible is the same, no matter when you start. But if you wait until later in the year to sign up, you will have fewer months to pay off the same total amount. That can mean higher monthly payments.</p>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">Applying Early vs. Applying Late</span></p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Applying Early: You spread the deductible over more months. Result: Smaller monthly payments.</li>\n  <li className="text-sm text-[#1E0F62]">Applying Late: You have the same total deductible, but fewer months to pay it off. Result: Bigger monthly payments.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">If you enroll earlier in the year, your monthly costs will be lower, and it will be easier to manage your budget.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1068,7 +1068,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">Click Yes and make sure to enter the enrollment start date as:</p>\n<p className="text-sm text-[#1E0F62]">Enter your enrollment start date (YYYY/MM/DD)</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1083,7 +1083,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help you decide on your enrollment start date:</p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date. Review the suggested date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1131,7 +1131,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">This section explains how to accurately fill out the insurance information on Page 3 of the TDP application after selecting ‘YES’. Depending on whether the plan covers one person or multiple household members, you will need to provide specific details.</p>\n<p className="text-sm text-[#1E0F62]">One Insurance Plan Only Covering One Person:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Policy Holder First Name (Required): Enter the first name of the policyholder. If the policyholder only has a single name, leave this field blank and check the box to the right.</li>\n  <li className="text-sm text-[#1E0F62]">Policy Holder Last Name or Single Name (Required): Enter the last name or single name as it appears on the documentation.</li>\n  <li className="text-sm text-[#1E0F62]">Name of Insurance Company (Required): Provide the name of the private insurance company.</li>\n  <li className="text-sm text-[#1E0F62]">Policy or Plan Number (Required): Enter the policy or plan number (usually five to seven numbers).</li>\n  <li className="text-sm text-[#1E0F62]">Identification or Certificate Number (Optional): If applicable, enter the policyholder’s identification number (around 10 characters).</li>\n  <li className="text-sm text-[#1E0F62]">Coverage Start Date (Optional): Enter the start date (YYYY/MM/DD), e.g., 2022/07/23.</li>\n  <li className="text-sm text-[#1E0F62]">Coverage End Date (Optional): If available, enter the end date (YYYY/MM/DD), e.g., 2023/07/23.</li>\n  <li className="text-sm text-[#1E0F62]">Persons Covered (Required): Indicate the person covered. Since this plan covers one person, select the policyholder’s name.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">One Insurance Plan Covering Multiple Household Members:<br />Complete the above fields and also list all household members covered under the plan.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1147,7 +1147,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">The bottom part of the Insurance Plan section on Page 3 of the application asks about premiums, coverage limits, and drug exclusions. Your answers will help determine eligibility for credits or additional coverage. Detailed instructions include:</p>\n<p className="text-sm text-[#1E0F62]">Do you pay any premium for your private insurance plan? (Required)<br />A premium is the amount you pay to maintain your plan. If you pay a premium, select ‘Yes’. You may qualify for a credit of up to $200 toward your TDP deductible. If you do not pay for your insurance (e.g., it is fully covered by your employer), select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]">Did anyone in your insurance plan reach their annual or lifetime maximum coverage? (Required)<br />This refers to whether anyone in your household has reached the maximum dollar amount the insurance company will pay for prescription drugs within a year or over a lifetime. Select ‘Yes’ if so; otherwise, select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]">Is there a particular drug that you wish to claim with TDP that your drug plan does not cover (drug exclusions)? (Required)<br />If your private insurance plan excludes coverage for a specific drug you need, select ‘Yes’. Otherwise, select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]">To expedite your application, upload the required documents (e.g., a letter from your insurer) if available; otherwise, they can be submitted later.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1165,7 +1165,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">To ensure all private insurance plans are included, click the ‘Add an insurance plan’ button and repeat the process for each plan. Continue adding plans until all details are complete. When finished, select the appropriate button: ‘Add an insurance plan’ if you need to add another or ‘Continue’ to proceed.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1199,7 +1199,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">If you select ‘YES’ on Page 4 of the application, this means you are acting as a lawfully authorized representative for one or more household members. It’s important to specify whether you are representing a single individual or multiple household members.</p>\n<p className="text-sm text-[#1E0F62]">- One Person Needs Representation: If you are only authorized to act on behalf of one household member, you will provide your information and complete the form on their behalf. Other household members may sign for themselves if they are at least 18 years old.</p>\n<p className="text-sm text-[#1E0F62]">- Multiple People Need Representation: If more than one household member requires representation, you will provide information for each person you are representing and sign on their behalf.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1279,7 +1279,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">Page 6 of the TDP application asks whether you and all household members aged 19 or older have filed tax returns for the most recent tax cycle. This information is used to calculate your deductible.</p>\n<p className="text-sm text-[#1E0F62]">What Does Filing a Tax Return Mean?<br />Filing a tax return means submitting your income information to the Canada Revenue Agency (CRA) for the last tax year. This ensures that your household’s income is properly reported for assessing your application.</p>\n<p className="text-sm text-[#1E0F62]">How to Check if You Have Filed a Tax Return:<br />Review your records for a Notice of Assessment from the CRA, check your CRA ‘My Account’ online, or consult with your accountant or tax preparer.</p>\n<p className="text-sm text-[#1E0F62]">Instructions:<br />- If all household members aged 19 or older have filed their tax returns, select ‘Yes.’<br />- If any household member aged 19 or older has not filed their tax return, select ‘No.’</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1297,7 +1297,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">You have selected ‘YES’, confirming that both you and your partner (if applicable) have submitted your tax returns for the most recent tax year. Follow these instructions to complete this page:</p>\n<p className="text-sm text-[#1E0F62]">- Confirm authorization: By selecting ‘YES,’ you agree to allow the TDP to access your submitted tax returns.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box.</p>\n<p className="text-sm text-[#1E0F62]">- Submit the page: Once signed, review the information and press the ‘Submit’ button to finalize this step.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1312,7 +1312,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">You have selected ‘NO’ and indicated that while one partner has submitted their tax returns, the other has not. In this case, you will need to provide supporting documents to verify your household’s income. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Submit supporting documents: Provide documents such as Statement of Earnings or T4 Slips, Social Assistance Statements (if applicable), or Proof of No Income.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent.</p>\n<p className="text-sm text-[#1E0F62]">- Submit the page: After signing, press the ‘Submit’ button to finalize this step.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1328,7 +1328,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">You have selected ‘NO’ and indicated that neither you nor your partner has submitted tax returns for the most recent tax year. In this case, you must upload alternative documents to verify your household’s income. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Submit supporting documents: Provide one or more of the following for each household member aged 19 or older: Statement of Earnings or T4 Slips, Social Assistance Statements (if applicable), or Proof of No Income.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent for submitting the alternative documents.</p>\n<p className="text-sm text-[#1E0F62]">- Submit the page: Press the ‘Submit’ button to finalize this step.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1344,7 +1344,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">This page of the tool will guide you through filling out the first page of the Trillium Drug Program (TDP) application. Follow these step-by-step instructions to ensure accurate completion of each field.</p>\n<p className="text-sm text-[#1E0F62]">Name<br />Enter your full legal first and last name as it appears on official documents (e.g., health card or ID). Select the checkbox if you only go by a single name. (Ensure there are no typos.)</p>\n<p className="text-sm text-[#1E0F62]">Health Card Number<br />Enter your Ontario health card number (including the two-letter version code, if applicable). You can locate this number on the front of your health card. (If you don’t have a health card, leave this section blank.)</p>\n<p className="text-sm text-[#1E0F62]">Date of Birth<br />Enter your date of birth (YYYY-MM-DD).</p>\n<p className="text-sm text-[#1E0F62]">Social Insurance Number (SIN) - 9 Digits<br />Enter your SIN, a 9-digit number. It is printed on your SIN card, income tax return, T4 slip, or other documents.</p>\n<p className="text-sm text-[#1E0F62]">Preferred Language<br />Select either ‘English’ or ‘French’ as your preferred language.</p>\n<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here:</p>\n<p className="text-sm text-[#1E0F62]">If you have other household members to include, click the ‘Add a household member’ button. This will create additional fields for the new household member. Fill them out using the same instructions.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1360,7 +1360,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">This page allows you to add information about other members of your household included in your application. Including household members ensures that the program calculates your household’s deductible correctly based on combined income and health needs.</p>\n<p className="text-sm text-[#1E0F62]">For each additional household member, provide the following details:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Name: Their full legal name as it appears on official documents.</li>\n  <li className="text-sm text-[#1E0F62]">Health Card Number: Their 10-digit Ontario health card number, including any version code.</li>\n  <li className="text-sm text-[#1E0F62]">Date of Birth: In the format YYYY-MM-DD.</li>\n  <li className="text-sm text-[#1E0F62]">Relationship to Household Member 1 (Primary Contact): Specify the relationship from a dropdown menu. Options include Spouse, Parent, Child, Grandparent, Grandchild, Other Ancestor, Great Grandchild, Child Under Legal Guardianship, and Legal Guardian.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">After selecting a relationship, a brief description will appear. Review it to ensure it applies to your situation.</p>\n<p className="text-sm text-[#1E0F62]">You can add multiple household members by selecting ‘Add a household member’ at the bottom of the page. Each household member must be entered separately. If finished, click ‘Continue’.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1394,7 +1394,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">If your mailing address is a Rural Route, PO Box, or General Delivery (select "Yes"):</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Enter your Rural Route, PO Box, or General Delivery address (e.g., Rural Route 3 or PO Box 456).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town (e.g., Toronto).</li>\n  <li className="text-sm text-[#1E0F62]">Select Ontario as the Province.</li>\n  <li className="text-sm text-[#1E0F62]">Enter your Postal Code (format: A1A 1A1).</li>\n  <li className="text-sm text-[#1E0F62]">Optionally, enter your Street Number and Street Name.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Note: If you select "Yes", you must also provide a Residential Address:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Enter your Street Number and Street Name (e.g., 456 Elm Avenue).</li>\n  <li className="text-sm text-[#1E0F62]">If applicable, add your Unit Number (e.g., Unit 301).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town and select Ontario as the Province.</li>\n  <li className="text-sm text-[#1E0F62]">Provide your Postal Code (format: A1A 1A1).</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Where to Find It: Use any official documentation or utility bill that confirms your mailing address.</p>\n<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here:</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1410,7 +1410,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">If your mailing address is a standard street address (select "No"):</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Enter your Street Number and Street Name (e.g., 123 Main Street).</li>\n  <li className="text-sm text-[#1E0F62]">If applicable, include your Unit Number (e.g., Unit 201).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town (e.g., Ottawa).</li>\n  <li className="text-sm text-[#1E0F62]">Select Ontario as the Province from the dropdown menu.</li>\n  <li className="text-sm text-[#1E0F62]">Enter your Postal Code (format: A1A 1A1).</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here:</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1426,7 +1426,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">Understanding TDP Deductibles<br />When you join the Trillium Drug Program (TDP), you must pay a certain amount each year (called a deductible) before TDP helps with your prescription costs. This yearly deductible is constant regardless of when you start. However, if you sign up later in the year, you\'ll have fewer months to pay off the same amount, which can mean higher monthly payments.</p>\n<p className="text-sm text-[#1E0F62]">Applying Early vs. Applying Late:<br />- Applying Early: Spread the deductible over more months for smaller monthly payments.<br />- Applying Late: Fewer months to pay the same total deductible, leading to larger monthly payments.</p>\n<p className="text-sm text-[#1E0F62]">If you enroll earlier, your monthly costs will be lower and easier to manage.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1442,7 +1442,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">Click Yes and make sure to enter the enrollment start date as:</p>\n<p className="text-sm text-[#1E0F62]">Enter your enrollment start date (YYYY/MM/DD)</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1457,7 +1457,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer several questions to help decide on your enrollment start date:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date?</li>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital?</li>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon?</li>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought?</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Then, click on the suggested enrollment start date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the start date you choose, the higher the monthly payments may be due to a longer payment period for the deductible.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1490,7 +1490,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">This section explains how to accurately fill out the insurance information on Page 3 of the TDP application after selecting ‘YES’. Depending on whether the plan covers one person or multiple household members, provide the following details:</p>\n<p className="text-sm text-[#1E0F62]">One Insurance Plan Only Covering One Person:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Policy Holder First Name (Required)</li>\n  <li className="text-sm text-[#1E0F62]">Policy Holder Last Name or Single Name (Required)</li>\n  <li className="text-sm text-[#1E0F62]">Name of Insurance Company (Required)</li>\n  <li className="text-sm text-[#1E0F62]">Policy or Plan Number (Required)</li>\n  <li className="text-sm text-[#1E0F62]">Identification or Certificate Number (Optional)</li>\n  <li className="text-sm text-[#1E0F62]">Coverage Start Date (Optional, format YYYY/MM/DD, e.g., 2022/07/23)</li>\n  <li className="text-sm text-[#1E0F62]">Coverage End Date (Optional, format YYYY/MM/DD, e.g., 2023/07/23)</li>\n  <li className="text-sm text-[#1E0F62]">Persons Covered (Required): Select the policyholder’s name.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">One Insurance Plan Covering Multiple Household Members:<br />Complete the above fields and list all household members covered under the plan.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1520,7 +1520,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">The bottom part of the Insurance Plan section on Page 3 of the application asks about premiums, coverage limits, and drug exclusions. Your answers will help determine eligibility for credits or additional coverage. Detailed instructions include:</p>\n<p className="text-sm text-[#1E0F62]">- Premium: If you pay a premium, select ‘Yes’ (may qualify for up to $200 credit). If not, select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]">- Maximum Coverage: Indicate if anyone in your plan has reached their annual or lifetime maximum.</p>\n<p className="text-sm text-[#1E0F62]">- Drug Exclusions: Indicate if there is a specific drug your plan does not cover.</p>\n<p className="text-sm text-[#1E0F62]">Upload any required documents (e.g., a letter from your insurer) if available; otherwise, they can be submitted later.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1538,7 +1538,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">To ensure all private insurance plans are included, click the ‘Add an insurance plan’ button and repeat the process for each plan. Continue adding plans until all details are complete. When finished, select the appropriate button: ‘Add an insurance plan’ if you need to add another or ‘Continue’ to proceed.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1572,7 +1572,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">If you select ‘YES’ on Page 4 of the application, this means you are acting as a lawfully authorized representative for one or more household members. It’s important to specify whether you are representing a single individual or multiple household members.</p>\n<p className="text-sm text-[#1E0F62]">- One Person Needs Representation: Provide your information and complete the form on behalf of that one household member. Other members may sign for themselves if they are at least 18 years old.</p>\n<p className="text-sm text-[#1E0F62]">- Multiple People Need Representation: Provide information for each person you are representing and sign on their behalf.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1604,7 +1604,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">Complete the instructions for adding another lawfully authorized representative. When finished, select ‘Add a lawfully authorized representative’ if you want to add another, or ‘Continue’ if you are finished.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1669,7 +1669,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">Page 6 of the TDP application asks whether you and all household members aged 19 or older have filed tax returns for the most recent tax cycle. This information is used to calculate your deductible.</p>\n<p className="text-sm text-[#1E0F62]">What Does Filing a Tax Return Mean?<br />Filing a tax return means submitting your income information to the Canada Revenue Agency (CRA) for the last tax year. This ensures that your household’s income is properly reported for assessing your application.</p>\n<p className="text-sm text-[#1E0F62]">How to Check if You Have Filed a Tax Return:<br />Review your records for a Notice of Assessment from the CRA, check your CRA ‘My Account’ online, or consult with your accountant or tax preparer.</p>\n<p className="text-sm text-[#1E0F62]">Instructions:<br />- If all household members aged 19 or older have filed their tax returns, select ‘Yes.’<br />- If any household member aged 19 or older has not filed their tax return, select ‘No.’</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1687,7 +1687,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">You have selected ‘YES’, confirming that both you and your partner (if applicable) have submitted your tax returns for the most recent tax year. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Confirm authorization: By selecting ‘YES,’ you agree to allow the TDP to access your submitted tax returns.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box.</p>\n<p className="text-sm text-[#1E0F62]">- Submit the page: After reviewing, press the ‘Submit’ button to finalize this step.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1702,7 +1702,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">You have selected ‘NO’ and indicated that while one partner has submitted their tax returns, the other has not. In this case, you will need to provide supporting documents to verify your household’s income. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Submit supporting documents: Provide documents such as Statement of Earnings or T4 Slips, Social Assistance Statements (if applicable), or Proof of No Income.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent.</p>\n<p className="text-sm text-[#1E0F62]">- Submit the page: Press the ‘Submit’ button to finalize this step.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1718,7 +1718,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">You have selected ‘NO’ and indicated that neither you nor your partner has submitted tax returns for the most recent tax year. In this case, you must upload alternative documents to verify your household’s income. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Submit supporting documents: Provide one or more of the following for each household member aged 19 or older: Statement of Earnings or T4 Slips, Social Assistance Statements (if applicable), or Proof of No Income.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent for submitting the alternative documents.</p>\n<p className="text-sm text-[#1E0F62]">- Submit the page: Press the ‘Submit’ button to finalize this step.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "vertical",
       },
     ],
@@ -1757,18 +1757,18 @@ export default function Questionairev2() {
               {currentQuestion.title}
             </h1>
             <p className="text-[#1E0F62]">{currentQuestion.question}</p>
-            {currentQuestion.content.map((content) => (
+            {currentQuestion.content.map((content, contentIndex) => (
               <div
-                key={content.text}
+              key={`${key}-content-${contentIndex}`}
                 className={`flex ${
                   content.content_orientation === "horizontal"
                     ? "lg:flex-row flex-col gap-4 justify-center items-center"
                     : "flex-col gap-4"
                 }`}
               >
-                {content.images.map((image) => (
+                {content.images.map((image, imageIndex) => (
                   <Image
-                    key={image}
+                    key={`${key}-image-${contentIndex}-${imageIndex}`}
                     src={image}
                     alt="Question Image"
                     width={
@@ -1787,7 +1787,7 @@ export default function Questionairev2() {
                 Object.entries(currentQuestion.options).map(
                   ([option, optionId]) => (
                     <button
-                      key={`${key}-${option}`}
+                      key={`${key}-${option}-${optionId}`}
                       onClick={() => handleOptionClick(optionId)}
                       className="bg-[#1E0F62] text-white text-[20px] font-bold w-full max-w-[700px] px-4 py-2 rounded-2xl shadow-lg hover:bg-[#1E0F62]/80"
                     >
@@ -1809,7 +1809,7 @@ export default function Questionairev2() {
                 Object.entries(currentQuestion.options).map(
                   ([option, optionId]) => (
                     <button
-                      key={`${key}-${option}`}
+                      key={`${key}-${option}-${optionId}`}
                       onClick={() => handleOptionClick(optionId)}
                       className="bg-[#1E0F62] text-white text-[20px] font-bold w-full max-w-[700px] px-4 py-2 rounded-2xl shadow-lg hover:bg-[#1E0F62]/80"
                     >
