@@ -483,7 +483,7 @@ const questions: Question[] = [
       },
       {
         text: '<p className="text-sm text-[#1E0F62]">Health Card Number<br />Enter your Ontario health card number (including the two-letter version code, if applicable). You can locate this number on the front of your Ontario health card.<br />Note: If you don’t have a health card, leave this section blank and proceed to the next field.</p>\n',
-        images: ["/images/id31-2.png", "/images/id31-3.png"],
+        images: ["/images/id31-2.png", "/images/id31-3.jpg"],
         content_orientation: "vertical",
       },
       {
@@ -493,7 +493,7 @@ const questions: Question[] = [
       },
       {
         text: '<p className="text-sm text-[#1E0F62]">Social Insurance Number (SIN) - 9 Digits<br />Enter your SIN, a 9-digit number assigned to you for government programs. Your SIN is printed on your SIN card, or you may find it on your income tax return, T4 slip, or other government documents.</p>\n',
-        images: ["/images/id31-5.png", "/images/id31-6"],
+        images: ["/images/id31-5.png", "/images/id31-6.jpg"],
         content_orientation: "vertical",
       },
       {
@@ -609,37 +609,37 @@ const questions: Question[] = [
     title: "I don’t know when I want my enrolment date to be",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help decide on your enrollment start date:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date.<br />Review the suggested date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>',
-        images: ["Yes", "Yes"],
+        text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help decide on your enrollment start date:</p>\n',
+        images: ['/images/id37-1.png'],
         content_orientation: "vertical",
       },
       {
-        text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help decide on your enrollment start date:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date.<br />Review the suggested date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>',
-        images: ["Yes", "Yes"],
+        text: '<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n </ul>',
+        images: ["/images/id37-2.png"],
         content_orientation: "vertical",
       },
       {
-        text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help decide on your enrollment start date:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date.<br />Review the suggested date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>',
-        images: ["Yes", "Yes"],
+        text: '<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n</ul>',
+        images: ["/images/id37-3.png"],
         content_orientation: "vertical",
       },
       {
-        text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help decide on your enrollment start date:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date.<br />Review the suggested date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>',
-        images: ["Yes", "Yes"],
+        text: '<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n</ul>',
+        images: ["/images/id37-4.png"],
         content_orientation: "vertical",
       },
       {
-        text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help decide on your enrollment start date:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date.<br />Review the suggested date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>',
-        images: ["Yes", "Yes"],
+        text: '<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>',
+        images: ["/images/id37-5.png"],
         content_orientation: "vertical",
       },
       {
-        text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help decide on your enrollment start date:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date.<br />Review the suggested date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>',
-        images: ["Yes", "Yes"],
+        text: '<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>',
+        images: ["/images/id37-6.png"],
         content_orientation: "vertical",
       },
       {
-        text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help decide on your enrollment start date:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date.<br />Review the suggested date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>',
+        text: '<p className="text-sm text-[#1E0F62]">Review the suggested date provided based on your answers.</p>\n',
         images: ["Yes", "Yes"],
         content_orientation: "vertical",
       },
@@ -735,12 +735,12 @@ const questions: Question[] = [
     content: [
       {
         text: "",
-        images: ["/images/additional-coverage-1.png"],
+        images: ["/images/id41-1.png"],
         content_orientation: "horizontal",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]">The bottom part of the Insurance Plan section on Page 3 of the application asks about premiums, coverage limits, and drug exclusions. Your answers will help determine eligibility for credits or additional coverage. Below is a detailed explanation of each question, including key definitions and how to respond.</p>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">Do you pay any premium for your private insurance plan? (Required)</span></p>\n<p className="text-sm text-[#1E0F62]">A premium is the amount you pay to maintain your private insurance plan. This could be a monthly, yearly, or one-time payment and may be deducted directly from your paycheck if provided through an employer. If you pay a premium, select ‘Yes’. You may qualify for a credit of up to $200 toward your TDP deductible, depending on the amount paid and the number of household members covered by your plan. If you select ‘Yes’ the application will ask you what your annual premium paid is, though this field is optional. If you do not pay for your insurance (e.g., it is fully covered by your employer or another entity), select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">Did anyone in your insurance plan reach their annual or lifetime maximum coverage? (Required)</span></p>\n<p className="text-sm text-[#1E0F62]">This refers to whether anyone in your household covered under the plan has reached the maximum dollar amount the insurance company will pay for prescription drugs within a year (annual limit) or over a lifetime (lifetime limit). If someone in your household has reached these limits, select ‘Yes’ to indicate that TDP assistance is required. Otherwise, select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">Is there a particular drug that you wish to claim with TDP that your drug plan does not cover (drug exclusions)? (Required)</span></p>\n<p className="text-sm text-[#1E0F62]">If your private insurance plan excludes coverage for a specific drug that you need and wish to claim under the TDP, select ‘Yes’. If all required medications are already covered by your private insurance, select ‘No’.</p>\n',
-        images: ["images/additional-coverage-2.png"],
+        images: ["images/id41-2.png"],
         content_orientation: "horizontal",
       },
     ],
@@ -757,14 +757,14 @@ const questions: Question[] = [
       {
         text: "",
         images: [
-          "/images/additional-coverage-3.png",
-          "/images/additional-coverage-4.png",
+          "/images/id42-1.png",
+          "/images/id42-2.png",
         ],
         content_orientation: "vertical",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]">To ensure all private insurance plans are included, click the ‘Add an insurance plan’ button and repeat the process for each plan. Continue adding plans until all insurance details are complete. When finished, select the appropriate button: ‘Add an insurance plan’ if you need to add another or ‘Continue’ to proceed.</p>',
-        images: ["Yes", "Yes"],
+        images: [],
         content_orientation: "horizontal",
       },
     ],
@@ -796,7 +796,7 @@ const questions: Question[] = [
     content: [
       {
         text: "",
-        images: ["/images/lawfully-authorized-representative.png"],
+        images: ["/images/id45-1.png", "/images/id45-2.png", "/images/id45-3.png", "/images/id45-4.png"],
         content_orientation: "vertical",
       },
       {
@@ -847,12 +847,12 @@ const questions: Question[] = [
     content: [
       {
         text: "",
-        images: ["/images/application-review-1.png"],
+        images: ["/images/id46-1.png"],
         content_orientation: "vertical",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]">Page 6 of the TDP application asks whether you and all household members aged 19 or older have filed tax returns for the most recent tax cycle. This is an essential step in determining eligibility, as tax information is used to calculate your deductible.</p>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">What Does Filing a Tax Return Mean?</span></p>\n<p className="text-sm text-[#1E0F62]">Filing a tax return means submitting your income information to the Canada Revenue Agency (CRA) for the last tax year. This process ensures that your household’s income is properly reported, which is required for assessing your TDP application.</p>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">How to Check if You Have Filed a Tax Return:</span></p>\n<p className="text-sm text-[#1E0F62]">Review your records for a Notice of Assessment from the CRA, which is issued after filing. Check your CRA ‘My Account’ online for confirmation. Consult with your accountant or tax preparer if you’re unsure.</p>\n',
-        images: ["/images/application-review-2.png"],
+        images: ["/images/id46-2.png"],
         content_orientation: "vertical",
       },
       {
@@ -874,17 +874,17 @@ const questions: Question[] = [
     content: [
       {
         text: "",
-        images: ["/images/application-review-3.png"],
+        images: ["/images/id49-1.png"],
         content_orientation: "vertical",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]">You have selected ‘YES’, confirming that both you have submitted your tax returns for the most recent tax year. Follow the instructions below to complete this page:</p>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">Confirm authorization</span><br />By selecting ‘YES,’ you are agreeing to allow the TDP to access the submitted tax returns for both yourself and your partner. This is necessary for the TDP to calculate your household’s deductible accurately.</p>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">Insert your signature</span><br />Locate the signature field on the page. Press the ‘Insert Signature’ button and sign in the designated box. This action confirms your consent for the TDP to retrieve your tax information.</p>\n',
-        images: ["/images/application-review-4.png"],
+        images: ["/images/id49-2.png"],
         content_orientation: "vertical",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]"><span className="font-bold">Submit the page</span><br />Once you have signed, review the information one last time. Press the ‘Submit’ button to finalize this step and move forward with your application.</p>',
-        images: ["/images/application-review-5.png"],
+        images: ["/images/id49-3.png"],
         content_orientation: "vertical",
       },
     ],
@@ -899,17 +899,22 @@ const questions: Question[] = [
     content: [
       {
         text: "",
-        images: ["/images/application-review-6.png"],
+        images: ["/images/id50-1.png"],
         content_orientation: "vertical",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]">You have selected ‘NO’ and indicating that you have not submitted tax returns for the most recent tax year. In this case, you must upload alternative documents to verify your household’s income. Follow the steps below to complete this section:</p>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">Submit supporting documents</span><br />Since tax returns have not been filed, you must provide one or more of the following documents for each household member aged 19 or older to verify income:</p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Statement of Earnings or T4 Slips: Access these through your employer or online employee portal.</li>\n  <li className="text-sm text-[#1E0F62]">Social Assistance Statements (if applicable): Obtain these from your provincial or municipal social services provider.</li>\n  <li className="text-sm text-[#1E0F62]">Proof of No Income (if applicable): Contact the Canada Revenue Agency (CRA) or your local financial services office to request confirmation of no income.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Ensure that these documents are clear and up-to-date to avoid delays in processing your application.</p>\n',
-        images: ["/images/application-review-7.png"],
+        images: ["/images/id50-2.jpg"],
         content_orientation: "vertical",
       },
       {
-        text: '<p className="text-sm text-[#1E0F62]"><span className="font-bold">Insert your signature</span><br />Locate the signature field on the page. Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent for submitting the alternative documents.</p>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">Submit the page</span><br />After signing, press the ‘Submit’ button to finalize this step and proceed with your application.</p>',
-        images: ["/images/application-review-8.png"],
+        text: '<p className="text-sm text-[#1E0F62]"><span className="font-bold">Insert your signature</span><br />Locate the signature field on the page. Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent for submitting the alternative documents.</p>\n',
+        images: ["/images/id50-3.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: '<p className="text-sm text-[#1E0F62]"><span className="font-bold">Submit the page</span><br />After signing, press the ‘Submit’ button to finalize this step and proceed with your application.</p>',
+        images: ["/images/id50-4.png"],
         content_orientation: "vertical",
       },
     ],
