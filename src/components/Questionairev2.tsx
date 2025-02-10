@@ -53,7 +53,7 @@ const questions: Question[] = [
       },
       {
         text: `<p className=\"text-sm text-[#1E0F62]\">On the card, please look at the expiry date.</p>`,
-        images: ["/images/id8-2.png"],
+        images: ["/images/id8-2.jpeg"],
         content_orientation: "vertical",
       },
       {
@@ -610,7 +610,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help decide on your enrollment start date:</p>\n',
-        images: ['/images/id37-1.png'],
+        images: ["/images/id37-1.png"],
         content_orientation: "vertical",
       },
       {
@@ -756,10 +756,7 @@ const questions: Question[] = [
     content: [
       {
         text: "",
-        images: [
-          "/images/id42-1.png",
-          "/images/id42-2.png",
-        ],
+        images: ["/images/id42-1.png", "/images/id42-2.png"],
         content_orientation: "vertical",
       },
       {
@@ -796,7 +793,12 @@ const questions: Question[] = [
     content: [
       {
         text: "",
-        images: ["/images/id45-1.png", "/images/id45-2.png", "/images/id45-3.png", "/images/id45-4.png"],
+        images: [
+          "/images/id45-1.png",
+          "/images/id45-2.png",
+          "/images/id45-3.png",
+          "/images/id45-4.png",
+        ],
         content_orientation: "vertical",
       },
       {
@@ -945,38 +947,32 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">This page of the tool will guide you through filling out the first page of the Trillium Drug Program (TDP) application. Follow these step-by-step explanations to ensure accurate completion of each field.</p>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">Name</span><br />Enter your full legal first and last name as it appears on official documents (e.g., health card or ID). Select the checkbox if you only go by a single name.<br /><span className="font-bold">Note:</span> Ensure there are no typos, as discrepancies can delay processing.</p>\n',
-        images: ["/images/two-person-household-1.png"],
+        images: ["/images/id52-1.png"],
         content_orientation: "vertical",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]"><span className="font-bold">Health Card Number</span><br />Enter your Ontario health card number (including the two-letter version code, if applicable). You can locate this number on the front of your Ontario health card.<br /><span className="font-bold">Note:</span> If you don’t have a health card, leave this section blank and proceed to the next field.</p>\n',
-        images: [
-          "/images/two-person-household-2.png",
-          "/images/two-person-household-3.png",
-        ],
+        images: ["/images/id52-2.png", "/images/id52-3.png"],
         content_orientation: "vertical",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]"><span className="font-bold">Date of Birth</span><br />Enter your date of birth in the format: YYYY-MM-DD.</p>\n',
-        images: ["/images/two-person-household-4.png"],
+        images: ["/images/id52-4.png"],
         content_orientation: "vertical",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]"><span className="font-bold">Social Insurance Number (SIN) - 9 Digits</span><br />Enter your SIN, a 9-digit number assigned to you for government programs. Your SIN is printed on your SIN card, or you may find it on your income tax return, T4 slip, or other government documents.</p>\n',
-        images: [
-          "/images/two-person-household-5.png",
-          "/images/two-person-household-6.png",
-        ],
+        images: ["/images/id52-5.png", "/images/id52-6.jpg"],
         content_orientation: "vertical",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]"><span className="font-bold">Preferred Language</span><br />Select either ‘English’ or ‘French’ as your preferred language.</p>\n',
-        images: ["/images/two-person-household-7.png"],
+        images: ["/images/id52-7.png"],
         content_orientation: "vertical",
       },
       {
         text: '<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here:</p>\n<p className="text-sm text-[#1E0F62]">If you have other household members to include in your application, click the ‘Add a household member’ button. This will create additional fields for the new household member. Fill them out using the same instructions for their first name, last name, health card number, DOB, and SIN.</p>',
-        images: ["/images/two-person-household-8.png"],
+        images: ["/images/id52-8.png"],
         content_orientation: "vertical",
       },
     ],
@@ -1021,8 +1017,18 @@ const questions: Question[] = [
     title: "No Door-to-Door Delivery",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">If your mailing address is a Rural Route, PO Box, or General Delivery (select "Yes"):</p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Enter your Rural Route, PO Box, or General Delivery address (e.g., Rural Route 3 or PO Box 456).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town (e.g., Toronto).</li>\n  <li className="text-sm text-[#1E0F62]">Select Ontario as the Province from the dropdown menu.</li>\n  <li className="text-sm text-[#1E0F62]">Enter your Postal Code in the format A1A 1A1.</li>\n  <li className="text-sm text-[#1E0F62]">Optionally, enter your Street Number and Street Name.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]"><span className="font-bold">Note:</span> If you select "Yes", you will also need to provide a Residential Address in the following fields:</p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Enter your Street Number and Street Name (e.g., 456 Elm Avenue).</li>\n  <li className="text-sm text-[#1E0F62]">If applicable, add your Unit Number (e.g., Unit 301).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town and select Ontario as the Province.</li>\n  <li className="text-sm text-[#1E0F62]">Provide your Postal Code in the format A1A 1A1.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Where to Find It: Use any official documentation or utility bill that confirms your mailing address.</p>\n<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here.</p>',
-        images: [],
+        text: "",
+        images: ["/images/id55-1.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: '<p className="text-sm text-[#1E0F62]">If your mailing address is a Rural Route, PO Box, or General Delivery (select "Yes"):</p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Enter your Rural Route, PO Box, or General Delivery address (e.g., Rural Route 3 or PO Box 456).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town (e.g., Toronto).</li>\n  <li className="text-sm text-[#1E0F62]">Select Ontario as the Province from the dropdown menu.</li>\n  <li className="text-sm text-[#1E0F62]">Enter your Postal Code in the format A1A 1A1.</li>\n  <li className="text-sm text-[#1E0F62]">Optionally, enter your Street Number and Street Name.</li>\n</ul>\n',
+        images: ["/images/id55-2.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]"><span className="font-bold">Note:</span> If you select "Yes", you will also need to provide a Residential Address in the following fields:</p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Enter your Street Number and Street Name (e.g., 456 Elm Avenue).</li>\n  <li className="text-sm text-[#1E0F62]">If applicable, add your Unit Number (e.g., Unit 301).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town and select Ontario as the Province.</li>\n  <li className="text-sm text-[#1E0F62]">Provide your Postal Code in the format A1A 1A1.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Where to Find It: Use any official documentation or utility bill that confirms your mailing address.</p>\n<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here.</p>`,
+        images: ["/images/id55-3.png", "/images/id55-4.png"],
         content_orientation: "vertical",
       },
     ],
@@ -1036,8 +1042,13 @@ const questions: Question[] = [
     title: "Door-to-Door Delivery",
     content: [
       {
+        text: "",
+        images: ["/images/id56-1.png"],
+        content_orientation: "vertical",
+      },
+      {
         text: '<p className="text-sm text-[#1E0F62]">If your mailing address is a standard street address (select "No"):</p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Enter your Street Number and Street Name (e.g., 123 Main Street).</li>\n  <li className="text-sm text-[#1E0F62]">If applicable, include your Unit Number (e.g., Unit 201).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town (e.g., Ottawa).</li>\n  <li className="text-sm text-[#1E0F62]">Select Ontario as the Province from the dropdown menu.</li>\n  <li className="text-sm text-[#1E0F62]">Enter your Postal Code in the format A1A 1A1.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here.</p>',
-        images: [],
+        images: ["/images/id56-2.png"],
         content_orientation: "vertical",
       },
     ],
@@ -1068,7 +1079,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">Click Yes and make sure to enter the enrollment start date as:</p>\n<p className="text-sm text-[#1E0F62]">Enter your enrollment start date (YYYY/MM/DD)</p>',
-        images: [],
+        images: ["/images/id58-1.png", "/images/id58-2.png"],
         content_orientation: "vertical",
       },
     ],
@@ -1082,8 +1093,53 @@ const questions: Question[] = [
     title: "I Do NOT Know My Desired Enrolment Date",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help you decide on your enrollment start date:</p>\n<ul>\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date. Review the suggested date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>',
-        images: [],
+        text: '<p className="text-sm text-[#1E0F62]">Click No if you don\'t know your enrollment start date.</p>\n<p className="text-sm text-[#1E0F62]">After selecting No, you will be prompted to answer the following questions to help you decide on your enrollment start date:</p>\n',
+        images: ["/images/id59-1.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<ul>\n  <li className="text-sm text-[#1E0F62]">Are you waiting to begin a new drug therapy and know the start date of your drug therapy? (Yes: You know the exact day you\'ll start; No: You don\'t know.)</li>\n </ul>`,
+        images: ["/images/id59-2.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<ul>\n  <li className="text-sm text-[#1E0F62]">Do you need to fill a prescription when leaving the hospital? (Yes: You have a prescription; No: You don\'t need to fill one.)</li>\n </ul>`,
+        images: ["/images/id59-3.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<ul>\n  <li className="text-sm text-[#1E0F62]">Do you have other drug coverage that is ending soon? (Yes: Your other drug coverage is ending or has ended; No: You do not have any other coverage ending.)</li>\n </ul>`,
+        images: ["/images/id59-4.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<ul>\n  <li className="text-sm text-[#1E0F62]">Do you have receipts for medicines you bought? (Yes: You have receipts; No: You don\'t have any.)</li>\n</ul>`,
+        images: ["/images/id59-5.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">Click on the suggested enrollment start date. </p>\n`,
+        images: ["/images/id59-6.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">Review the suggested date provided based on your answers.</p>\n<p className="text-sm text-[#1E0F62]">Keep in mind: The earlier the enrollment start date you choose, the higher the deductible you may have to pay.</p>`,
+        images: ["/images/id59-7.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]"> <span className="font-bold">Decide Whether to Accept the Suggestion:</span><br /> You can either accept the suggested date or choose a different one.  </p> <p className="text-sm text-[#1E0F62]"> <span className="font-bold">If You Accept the Suggested Date:</span> </p> <ol className="list-decimal ml-6"> <li className="text-sm text-[#1E0F62]">Click "Yes, I want to go with the suggested enrollment start date."</li> <li className="text-sm text-[#1E0F62]">Then Click on Continue.</li> </ol> `,
+        images: ["/images/id59-8.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]"> <span className="font-bold">If You Do Not Accept the Suggested Date:</span> </p> <ol className="list-decimal ml-6"> <li className="text-sm text-[#1E0F62]">Click "No, I want to choose my own enrollment start date or decide later."</li> </ol> `,
+        images: ["/images/id59-9.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]"> <span className="font-bold">Enter Your Own Date (Optional):</span> </p> <p className="text-sm text-[#1E0F62]"> This step is optional. If you are not sure which date to choose, you can leave this field blank for now.  </p> <p className="text-sm text-[#1E0F62]"> After selecting “No,” you can manually enter your enrollment start date or decide later.  </p> <p className="text-sm text-[#1E0F62]"> <span className="font-bold">Format:</span> YYYY/MM/DD </p> <p className="text-sm text-[#1E0F62]"> <span className="font-bold">Example:</span> 2022/07/23 </p> <p className="text-sm text-[#1E0F62]"> <span className="font-bold">Note:</span> If you don't provide a start date, your application will be paused. TDP needs this date to calculate your household’s annual and quarterly deductible. You will need to contact TDP with your preferred start date to continue processing your application.  </p>`,
+        images: ["/images/id59-10.png"],
         content_orientation: "vertical",
       },
     ],
@@ -1130,8 +1186,23 @@ const questions: Question[] = [
     title: "Insurance",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">This section explains how to accurately fill out the insurance information on Page 3 of the TDP application after selecting ‘YES’. Depending on whether the plan covers one person or multiple household members, you will need to provide specific details.</p>\n<p className="text-sm text-[#1E0F62]">One Insurance Plan Only Covering One Person:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Policy Holder First Name (Required): Enter the first name of the policyholder. If the policyholder only has a single name, leave this field blank and check the box to the right.</li>\n  <li className="text-sm text-[#1E0F62]">Policy Holder Last Name or Single Name (Required): Enter the last name or single name as it appears on the documentation.</li>\n  <li className="text-sm text-[#1E0F62]">Name of Insurance Company (Required): Provide the name of the private insurance company.</li>\n  <li className="text-sm text-[#1E0F62]">Policy or Plan Number (Required): Enter the policy or plan number (usually five to seven numbers).</li>\n  <li className="text-sm text-[#1E0F62]">Identification or Certificate Number (Optional): If applicable, enter the policyholder’s identification number (around 10 characters).</li>\n  <li className="text-sm text-[#1E0F62]">Coverage Start Date (Optional): Enter the start date (YYYY/MM/DD), e.g., 2022/07/23.</li>\n  <li className="text-sm text-[#1E0F62]">Coverage End Date (Optional): If available, enter the end date (YYYY/MM/DD), e.g., 2023/07/23.</li>\n  <li className="text-sm text-[#1E0F62]">Persons Covered (Required): Indicate the person covered. Since this plan covers one person, select the policyholder’s name.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">One Insurance Plan Covering Multiple Household Members:<br />Complete the above fields and also list all household members covered under the plan.</p>',
+        text: '<p className="text-sm text-[#1E0F62]">This section explains how to accurately fill out the insurance information on Page 3 of the TDP application after selecting ‘YES’. Depending on whether the plan covers one person or multiple household members, you will need to provide specific details.</p>\n',
+        images: ["/images/id62-1.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: '<p className="text-sm text-[#1E0F62]">One Insurance Plan Only Covering One Person:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Policy Holder First Name (Required): Enter the first name of the policyholder. If the policyholder only has a single name, leave this field blank and check the box to the right.</li>\n  <li className="text-sm text-[#1E0F62]">Policy Holder Last Name or Single Name (Required): Enter the last name or single name as it appears on the documentation.</li>\n  <li className="text-sm text-[#1E0F62]">Name of Insurance Company (Required): Provide the name of the private insurance company.</li>\n  <li className="text-sm text-[#1E0F62]">Policy or Plan Number (Required): Enter the policy or plan number (usually five to seven numbers).</li>\n  <li className="text-sm text-[#1E0F62]">Identification or Certificate Number (Optional): If applicable, enter the policyholder’s identification number (around 10 characters).</li>\n  <li className="text-sm text-[#1E0F62]">Coverage Start Date (Optional): Enter the start date (YYYY/MM/DD), e.g., 2022/07/23.</li>\n  <li className="text-sm text-[#1E0F62]">Coverage End Date (Optional): If available, enter the end date (YYYY/MM/DD), e.g., 2023/07/23.</li>\n  <li className="text-sm text-[#1E0F62]">Persons Covered (Required): Indicate the person covered. Since this plan covers one person, select the policyholder’s name.</li>\n</ul>\n',
+        images: ["/images/id62-2.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]"> <span className="font-bold">One Insurance Plan Covering Multiple Household Members</span> </p> <p className="text-sm text-[#1E0F62]"> If the plan covers more than one person in your household, complete the same fields as above, but ensure the following additional steps: </p>`,
         images: [],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<ol className="list-decimal ml-6"> <li className="text-sm text-[#1E0F62]"> <span className="font-bold">Persons Covered (Required):</span> Indicate all individuals covered under this plan. You will need to list all household members included in the coverage. This information is critical for determining eligibility and calculating the deductible.  </li> </ol>`,
+        images: ["/images/id62-3.png"],
         content_orientation: "vertical",
       },
     ],
@@ -1146,10 +1217,15 @@ const questions: Question[] = [
     title: "Additional Insurance Coverage",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">The bottom part of the Insurance Plan section on Page 3 of the application asks about premiums, coverage limits, and drug exclusions. Your answers will help determine eligibility for credits or additional coverage. Detailed instructions include:</p>\n<p className="text-sm text-[#1E0F62]">Do you pay any premium for your private insurance plan? (Required)<br />A premium is the amount you pay to maintain your plan. If you pay a premium, select ‘Yes’. You may qualify for a credit of up to $200 toward your TDP deductible. If you do not pay for your insurance (e.g., it is fully covered by your employer), select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]">Did anyone in your insurance plan reach their annual or lifetime maximum coverage? (Required)<br />This refers to whether anyone in your household has reached the maximum dollar amount the insurance company will pay for prescription drugs within a year or over a lifetime. Select ‘Yes’ if so; otherwise, select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]">Is there a particular drug that you wish to claim with TDP that your drug plan does not cover (drug exclusions)? (Required)<br />If your private insurance plan excludes coverage for a specific drug you need, select ‘Yes’. Otherwise, select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]">To expedite your application, upload the required documents (e.g., a letter from your insurer) if available; otherwise, they can be submitted later.</p>',
-        images: [],
+        text: '',
+        images: ["/images/id63-1.png"],
         content_orientation: "vertical",
       },
+      {
+        text: '<p className="text-sm text-[#1E0F62]">The bottom part of the Insurance Plan section on Page 3 of the application asks about premiums, coverage limits, and drug exclusions. Your answers will help determine eligibility for credits or additional coverage. Detailed instructions include:</p>\n<p className="text-sm text-[#1E0F62]">Do you pay any premium for your private insurance plan? (Required)<br />A premium is the amount you pay to maintain your plan. If you pay a premium, select ‘Yes’. You may qualify for a credit of up to $200 toward your TDP deductible. If you do not pay for your insurance (e.g., it is fully covered by your employer), select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]">Did anyone in your insurance plan reach their annual or lifetime maximum coverage? (Required)<br />This refers to whether anyone in your household has reached the maximum dollar amount the insurance company will pay for prescription drugs within a year or over a lifetime. Select ‘Yes’ if so; otherwise, select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]">Is there a particular drug that you wish to claim with TDP that your drug plan does not cover (drug exclusions)? (Required)<br />If your private insurance plan excludes coverage for a specific drug you need, select ‘Yes’. Otherwise, select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]">To expedite your application, upload the required documents (e.g., a letter from your insurer) if available; otherwise, they can be submitted later.</p>',
+        images: ["/images/id63-2.png"],
+        content_orientation: "vertical",
+      }
     ],
     question:
       "Do you need to provide additional insurance information or add another household member's insurance plan?",
@@ -1163,6 +1239,11 @@ const questions: Question[] = [
     id: 64,
     title: "Additional Insurance Coverage",
     content: [
+      {
+        text: '',
+        images: ["/images/id64-1.png", "/images/id64-2.png"],
+        content_orientation: "vertical",
+      },
       {
         text: '<p className="text-sm text-[#1E0F62]">To ensure all private insurance plans are included, click the ‘Add an insurance plan’ button and repeat the process for each plan. Continue adding plans until all details are complete. When finished, select the appropriate button: ‘Add an insurance plan’ if you need to add another or ‘Continue’ to proceed.</p>',
         images: [],
@@ -1278,10 +1359,20 @@ const questions: Question[] = [
     title: "Application Review",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">Page 6 of the TDP application asks whether you and all household members aged 19 or older have filed tax returns for the most recent tax cycle. This information is used to calculate your deductible.</p>\n<p className="text-sm text-[#1E0F62]">What Does Filing a Tax Return Mean?<br />Filing a tax return means submitting your income information to the Canada Revenue Agency (CRA) for the last tax year. This ensures that your household’s income is properly reported for assessing your application.</p>\n<p className="text-sm text-[#1E0F62]">How to Check if You Have Filed a Tax Return:<br />Review your records for a Notice of Assessment from the CRA, check your CRA ‘My Account’ online, or consult with your accountant or tax preparer.</p>\n<p className="text-sm text-[#1E0F62]">Instructions:<br />- If all household members aged 19 or older have filed their tax returns, select ‘Yes.’<br />- If any household member aged 19 or older has not filed their tax return, select ‘No.’</p>',
+        text: '<p className="text-sm text-[#1E0F62]">Page 6 of the TDP application asks whether you and all household members aged 19 or older have filed tax returns for the most recent tax cycle. This information is used to calculate your deductible.</p>',
+        images: ["/images/id72-1.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: '\n<p className="text-sm text-[#1E0F62]">What Does Filing a Tax Return Mean?<br />Filing a tax return means submitting your income information to the Canada Revenue Agency (CRA) for the last tax year. This ensures that your household’s income is properly reported for assessing your application.</p>\n<p className="text-sm text-[#1E0F62]">How to Check if You Have Filed a Tax Return:<br />Review your records for a Notice of Assessment from the CRA, check your CRA ‘My Account’ online, or consult with your accountant or tax preparer.</p>\n',
         images: [],
         content_orientation: "vertical",
       },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">Instructions:<br />- If all household members aged 19 or older have filed their tax returns, select ‘Yes.’<br />- If any household member aged 19 or older has not filed their tax return, select ‘No.’</p>`,
+        images: ["/images/id72-1.png"],
+        content_orientation: "vertical",
+      }
     ],
     question:
       "Have all household members aged 19 or older filed their tax returns for the most recent tax year?",
@@ -1296,8 +1387,18 @@ const questions: Question[] = [
     title: "Application Review",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">You have selected ‘YES’, confirming that both you and your partner (if applicable) have submitted your tax returns for the most recent tax year. Follow these instructions to complete this page:</p>\n<p className="text-sm text-[#1E0F62]">- Confirm authorization: By selecting ‘YES,’ you agree to allow the TDP to access your submitted tax returns.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box.</p>\n<p className="text-sm text-[#1E0F62]">- Submit the page: Once signed, review the information and press the ‘Submit’ button to finalize this step.</p>',
-        images: [],
+        text: '',
+        images: ["/images/id73-1.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: '<p className="text-sm text-[#1E0F62]">You have selected ‘YES’, confirming that both you and your partner (if applicable) have submitted your tax returns for the most recent tax year. Follow these instructions to complete this page:</p>\n<p className="text-sm text-[#1E0F62]">- Confirm authorization: By selecting ‘YES,’ you agree to allow the TDP to access your submitted tax returns.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box.</p>\n',
+        images: ['/images/id73-2.png'],
+        content_orientation: "vertical",
+      },
+      {
+        text: '<p className="text-sm text-[#1E0F62]">- Submit the page: Once signed, review the information and press the ‘Submit’ button to finalize this step.</p>',
+        images: ['/images/id73-3.png'],
         content_orientation: "vertical",
       },
     ],
@@ -1311,10 +1412,25 @@ const questions: Question[] = [
     title: "Application Review",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">You have selected ‘NO’ and indicated that while one partner has submitted their tax returns, the other has not. In this case, you will need to provide supporting documents to verify your household’s income. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Submit supporting documents: Provide documents such as Statement of Earnings or T4 Slips, Social Assistance Statements (if applicable), or Proof of No Income.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent.</p>\n<p className="text-sm text-[#1E0F62]">- Submit the page: After signing, press the ‘Submit’ button to finalize this step.</p>',
-        images: [],
+        text: '',
+        images: ["/images/id74-1.png"],
         content_orientation: "vertical",
       },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">You have selected ‘NO’ and indicated that while one partner has submitted their tax returns, the other has not. In this case, you will need to provide supporting documents to verify your household’s income. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Submit supporting documents: Provide documents such as Statement of Earnings or T4 Slips, Social Assistance Statements (if applicable), or Proof of No Income.</p>\n`,
+        images: ["/images/id74-2.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent.</p>\n`,
+        images: ['/images/id74-3.png'],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">- Submit the page: After signing, press the ‘Submit’ button to finalize this step.</p>`,
+        images: ['/images/id74-4.png'],
+        content_orientation: "vertical",
+      }
     ],
     question:
       "Have you uploaded the required income documents, signed, and submitted the page?",
@@ -1327,8 +1443,23 @@ const questions: Question[] = [
     title: "Application Review",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">You have selected ‘NO’ and indicated that neither you nor your partner has submitted tax returns for the most recent tax year. In this case, you must upload alternative documents to verify your household’s income. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Submit supporting documents: Provide one or more of the following for each household member aged 19 or older: Statement of Earnings or T4 Slips, Social Assistance Statements (if applicable), or Proof of No Income.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent for submitting the alternative documents.</p>\n<p className="text-sm text-[#1E0F62]">- Submit the page: Press the ‘Submit’ button to finalize this step.</p>',
-        images: [],
+        text: '',
+        images: ["/images/id75-1.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">You have selected ‘NO’ and indicated that neither you nor your partner has submitted tax returns for the most recent tax year. In this case, you must upload alternative documents to verify your household’s income. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Submit supporting documents: Provide one or more of the following for each household member aged 19 or older: Statement of Earnings or T4 Slips, Social Assistance Statements (if applicable), or Proof of No Income.</p>\n`,
+        images: ["/images/id75-2.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent for submitting the alternative documents.</p>\n`,
+        images: ['/images/id75-3.png'],
+        content_orientation: "vertical",
+      },
+      {
+        text: '<p className="text-sm text-[#1E0F62]">- Submit the page: Press the ‘Submit’ button to finalize this step.</p>',
+        images: ['/images/id75-4.png'],
         content_orientation: "vertical",
       },
     ],
@@ -1343,10 +1474,40 @@ const questions: Question[] = [
     title: "Completing the TDP Application: Households with Multiple People",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">This page of the tool will guide you through filling out the first page of the Trillium Drug Program (TDP) application. Follow these step-by-step instructions to ensure accurate completion of each field.</p>\n<p className="text-sm text-[#1E0F62]">Name<br />Enter your full legal first and last name as it appears on official documents (e.g., health card or ID). Select the checkbox if you only go by a single name. (Ensure there are no typos.)</p>\n<p className="text-sm text-[#1E0F62]">Health Card Number<br />Enter your Ontario health card number (including the two-letter version code, if applicable). You can locate this number on the front of your health card. (If you don’t have a health card, leave this section blank.)</p>\n<p className="text-sm text-[#1E0F62]">Date of Birth<br />Enter your date of birth (YYYY-MM-DD).</p>\n<p className="text-sm text-[#1E0F62]">Social Insurance Number (SIN) - 9 Digits<br />Enter your SIN, a 9-digit number. It is printed on your SIN card, income tax return, T4 slip, or other documents.</p>\n<p className="text-sm text-[#1E0F62]">Preferred Language<br />Select either ‘English’ or ‘French’ as your preferred language.</p>\n<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here:</p>\n<p className="text-sm text-[#1E0F62]">If you have other household members to include, click the ‘Add a household member’ button. This will create additional fields for the new household member. Fill them out using the same instructions.</p>',
+        text: `<p className="text-sm text-[#1E0F62]">This page of the tool will guide you through filling out the first page of the Trillium Drug Program (TDP) application. Follow these step-by-step instructions to ensure accurate completion of each field.</p>`,
         images: [],
         content_orientation: "vertical",
       },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">Name<br />Enter your full legal first and last name as it appears on official documents (e.g., health card or ID). Select the checkbox if you only go by a single name. (Ensure there are no typos.)</p>\n`,
+        images: ["/images/id76-1.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">Health Card Number<br />Enter your Ontario health card number (including the two-letter version code, if applicable). You can locate this number on the front of your health card. (If you don’t have a health card, leave this section blank.)</p>\n`,
+        images: ["/images/id76-2.png", "/images/id76-3.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">Date of Birth<br />Enter your date of birth (YYYY-MM-DD).</p>\n`,
+        images: ["/images/id76-4.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">Social Insurance Number (SIN) - 9 Digits<br />Enter your SIN, a 9-digit number. It is printed on your SIN card, income tax return, T4 slip, or other documents.</p>\n`,
+        images: ["/images/id76-5.png", "/images/id76-6.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: '<p className="text-sm text-[#1E0F62]">Preferred Language<br />Select either ‘English’ or ‘French’ as your preferred language.</p>\n',
+        images: ["/images/id76-7.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: '<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here:</p>\n<p className="text-sm text-[#1E0F62]">If you have other household members to include, click the ‘Add a household member’ button. This will create additional fields for the new household member. Fill them out using the same instructions.</p>',
+        images: ["/images/id76-8.png"],
+        content_orientation: "vertical",
+      }
     ],
     question:
       "Have you entered your information and added all household members?",
@@ -1359,10 +1520,15 @@ const questions: Question[] = [
     title: "Completing the TDP Application: Households with Multiple People",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">This page allows you to add information about other members of your household included in your application. Including household members ensures that the program calculates your household’s deductible correctly based on combined income and health needs.</p>\n<p className="text-sm text-[#1E0F62]">For each additional household member, provide the following details:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Name: Their full legal name as it appears on official documents.</li>\n  <li className="text-sm text-[#1E0F62]">Health Card Number: Their 10-digit Ontario health card number, including any version code.</li>\n  <li className="text-sm text-[#1E0F62]">Date of Birth: In the format YYYY-MM-DD.</li>\n  <li className="text-sm text-[#1E0F62]">Relationship to Household Member 1 (Primary Contact): Specify the relationship from a dropdown menu. Options include Spouse, Parent, Child, Grandparent, Grandchild, Other Ancestor, Great Grandchild, Child Under Legal Guardianship, and Legal Guardian.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">After selecting a relationship, a brief description will appear. Review it to ensure it applies to your situation.</p>\n<p className="text-sm text-[#1E0F62]">You can add multiple household members by selecting ‘Add a household member’ at the bottom of the page. Each household member must be entered separately. If finished, click ‘Continue’.</p>',
-        images: [],
+        text: `<p className="text-sm text-[#1E0F62]">This page allows you to add information about other members of your household included in your application. Including household members ensures that the program calculates your household’s deductible correctly based on combined income and health needs.</p>\n<p className="text-sm text-[#1E0F62]">For each additional household member, provide the following details:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Name: Their full legal name as it appears on official documents.</li>\n  <li className="text-sm text-[#1E0F62]">Health Card Number: Their 10-digit Ontario health card number, including any version code.</li>\n  <li className="text-sm text-[#1E0F62]">Date of Birth: In the format YYYY-MM-DD.</li>\n </ul>\n`, 
+        images: ["/images/id77-1.png", "/images/id77-2.png", "/images/id77-3.png"],
         content_orientation: "vertical",
       },
+      {
+        text: '<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Relationship to Household Member 1 (Primary Contact): Specify the relationship from a dropdown menu. Options include Spouse, Parent, Child, Grandparent, Grandchild, Other Ancestor, Great Grandchild, Child Under Legal Guardianship, and Legal Guardian.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">After selecting a relationship, a brief description will appear. Review it to ensure it applies to your situation.</p>\n<p className="text-sm text-[#1E0F62]">You can add multiple household members by selecting ‘Add a household member’ at the bottom of the page. Each household member must be entered separately. If finished, click ‘Continue’.</p>',
+        images: ["/images/id77-4.png"],
+        content_orientation: "vertical",
+      }
     ],
     question:
       "Have you added all required household members and their information?",
@@ -1393,10 +1559,20 @@ const questions: Question[] = [
     title: "No Door-to-Door Delivery",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">If your mailing address is a Rural Route, PO Box, or General Delivery (select "Yes"):</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Enter your Rural Route, PO Box, or General Delivery address (e.g., Rural Route 3 or PO Box 456).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town (e.g., Toronto).</li>\n  <li className="text-sm text-[#1E0F62]">Select Ontario as the Province.</li>\n  <li className="text-sm text-[#1E0F62]">Enter your Postal Code (format: A1A 1A1).</li>\n  <li className="text-sm text-[#1E0F62]">Optionally, enter your Street Number and Street Name.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Note: If you select "Yes", you must also provide a Residential Address:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Enter your Street Number and Street Name (e.g., 456 Elm Avenue).</li>\n  <li className="text-sm text-[#1E0F62]">If applicable, add your Unit Number (e.g., Unit 301).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town and select Ontario as the Province.</li>\n  <li className="text-sm text-[#1E0F62]">Provide your Postal Code (format: A1A 1A1).</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Where to Find It: Use any official documentation or utility bill that confirms your mailing address.</p>\n<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here:</p>',
-        images: [],
+        text: `<p className="text-sm text-[#1E0F62]">If your mailing address is a Rural Route, PO Box, or General Delivery (select "Yes"):</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Enter your Rural Route, PO Box, or General Delivery address (e.g., Rural Route 3 or PO Box 456).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town (e.g., Toronto).</li>\n  <li className="text-sm text-[#1E0F62]">Select Ontario as the Province.</li>\n  <li className="text-sm text-[#1E0F62]">Enter your Postal Code (format: A1A 1A1).</li>\n  <li className="text-sm text-[#1E0F62]">Optionally, enter your Street Number and Street Name.</li>\n</ul>\n`,
+        images: ["/images/id79-1.png"],
         content_orientation: "vertical",
       },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">Note: If you select "Yes", you must also provide a Residential Address:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Enter your Street Number and Street Name (e.g., 456 Elm Avenue).</li>\n  <li className="text-sm text-[#1E0F62]">If applicable, add your Unit Number (e.g., Unit 301).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town and select Ontario as the Province.</li>\n  <li className="text-sm text-[#1E0F62]">Provide your Postal Code (format: A1A 1A1).</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">Where to Find It: Use any official documentation or utility bill that confirms your mailing address.</p>\n`,
+        images: ["/images/id79-2.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here:</p>`,
+        images: ["/images/id79-3.png"],
+        content_orientation: "vertical",
+      }
     ],
     question:
       "Have you completed the Mailing Address section and successfully submitted Page 1?",
@@ -1409,8 +1585,13 @@ const questions: Question[] = [
     title: "Door-to-Door Delivery",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">If your mailing address is a standard street address (select "No"):</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Enter your Street Number and Street Name (e.g., 123 Main Street).</li>\n  <li className="text-sm text-[#1E0F62]">If applicable, include your Unit Number (e.g., Unit 201).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town (e.g., Ottawa).</li>\n  <li className="text-sm text-[#1E0F62]">Select Ontario as the Province from the dropdown menu.</li>\n  <li className="text-sm text-[#1E0F62]">Enter your Postal Code (format: A1A 1A1).</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here:</p>',
-        images: [],
+        text: `<p className="text-sm text-[#1E0F62]">If your mailing address is a standard street address (select "No"):</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Enter your Street Number and Street Name (e.g., 123 Main Street).</li>\n  <li className="text-sm text-[#1E0F62]">If applicable, include your Unit Number (e.g., Unit 201).</li>\n  <li className="text-sm text-[#1E0F62]">Enter your City/Town (e.g., Ottawa).</li>\n  <li className="text-sm text-[#1E0F62]">Select Ontario as the Province from the dropdown menu.</li>\n  <li className="text-sm text-[#1E0F62]">Enter your Postal Code (format: A1A 1A1).</li>\n</ul>\n`,
+        images: ['/images/id80-1.png'],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">An example of a correctly completed page can be found here:</p>`,
+        images: ["/images/id80-2.png"],
         content_orientation: "vertical",
       },
     ],
@@ -1442,7 +1623,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">Click Yes and make sure to enter the enrollment start date as:</p>\n<p className="text-sm text-[#1E0F62]">Enter your enrollment start date (YYYY/MM/DD)</p>',
-        images: [],
+        images: ["/images/id82-1.png", "/images/id82-2.png"],
         content_orientation: "vertical",
       },
     ],
@@ -1489,10 +1670,20 @@ const questions: Question[] = [
     title: "Insurance",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">This section explains how to accurately fill out the insurance information on Page 3 of the TDP application after selecting ‘YES’. Depending on whether the plan covers one person or multiple household members, provide the following details:</p>\n<p className="text-sm text-[#1E0F62]">One Insurance Plan Only Covering One Person:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Policy Holder First Name (Required)</li>\n  <li className="text-sm text-[#1E0F62]">Policy Holder Last Name or Single Name (Required)</li>\n  <li className="text-sm text-[#1E0F62]">Name of Insurance Company (Required)</li>\n  <li className="text-sm text-[#1E0F62]">Policy or Plan Number (Required)</li>\n  <li className="text-sm text-[#1E0F62]">Identification or Certificate Number (Optional)</li>\n  <li className="text-sm text-[#1E0F62]">Coverage Start Date (Optional, format YYYY/MM/DD, e.g., 2022/07/23)</li>\n  <li className="text-sm text-[#1E0F62]">Coverage End Date (Optional, format YYYY/MM/DD, e.g., 2023/07/23)</li>\n  <li className="text-sm text-[#1E0F62]">Persons Covered (Required): Select the policyholder’s name.</li>\n</ul>\n<p className="text-sm text-[#1E0F62]">One Insurance Plan Covering Multiple Household Members:<br />Complete the above fields and list all household members covered under the plan.</p>',
-        images: [],
+        text: `<p className="text-sm text-[#1E0F62]">This section explains how to accurately fill out the insurance information on Page 3 of the TDP application after selecting ‘YES’. Depending on whether the plan covers one person or multiple household members, provide the following details:</p>\n<p className="text-sm text-[#1E0F62]">One Insurance Plan Only Covering One Person:</p>\n<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n`,
+        images: ["/images/id85-1.png"],
         content_orientation: "vertical",
       },
+      {
+        text: `<ul className="list-disc pl-4 text-sm text-[#1E0F62]">\n  <li className="text-sm text-[#1E0F62]">Policy Holder First Name (Required)</li>\n  <li className="text-sm text-[#1E0F62]">Policy Holder Last Name or Single Name (Required)</li>\n  <li className="text-sm text-[#1E0F62]">Name of Insurance Company (Required)</li>\n  <li className="text-sm text-[#1E0F62]">Policy or Plan Number (Required)</li>\n  <li className="text-sm text-[#1E0F62]">Identification or Certificate Number (Optional)</li>\n  <li className="text-sm text-[#1E0F62]">Coverage Start Date (Optional, format YYYY/MM/DD, e.g., 2022/07/23)</li>\n  <li className="text-sm text-[#1E0F62]">Coverage End Date (Optional, format YYYY/MM/DD, e.g., 2023/07/23)</li>\n  <li className="text-sm text-[#1E0F62]">Persons Covered (Required): Select the policyholder’s name.</li>\n</ul>\n`,
+        images: ["/images/id85-2.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">One Insurance Plan Covering Multiple Household Members:<br />Complete the above fields and list all household members covered under the plan.</p>`,
+        images: ["/images/id85-3.png"],
+        content_orientation: "vertical",
+      }
     ],
     question: "Have you provided all required insurance information on Page 3?",
     options: {
@@ -1519,10 +1710,15 @@ const questions: Question[] = [
     title: "Additional Insurance Coverage",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">The bottom part of the Insurance Plan section on Page 3 of the application asks about premiums, coverage limits, and drug exclusions. Your answers will help determine eligibility for credits or additional coverage. Detailed instructions include:</p>\n<p className="text-sm text-[#1E0F62]">- Premium: If you pay a premium, select ‘Yes’ (may qualify for up to $200 credit). If not, select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]">- Maximum Coverage: Indicate if anyone in your plan has reached their annual or lifetime maximum.</p>\n<p className="text-sm text-[#1E0F62]">- Drug Exclusions: Indicate if there is a specific drug your plan does not cover.</p>\n<p className="text-sm text-[#1E0F62]">Upload any required documents (e.g., a letter from your insurer) if available; otherwise, they can be submitted later.</p>',
-        images: [],
+        text: '',
+        images: ["/images/id87-1.png"],
         content_orientation: "vertical",
       },
+      {
+        text: '<p className="text-sm text-[#1E0F62]">The bottom part of the Insurance Plan section on Page 3 of the application asks about premiums, coverage limits, and drug exclusions. Your answers will help determine eligibility for credits or additional coverage. Detailed instructions include:</p>\n<p className="text-sm text-[#1E0F62]">- Premium: If you pay a premium, select ‘Yes’ (may qualify for up to $200 credit). If not, select ‘No’.</p>\n<p className="text-sm text-[#1E0F62]">- Maximum Coverage: Indicate if anyone in your plan has reached their annual or lifetime maximum.</p>\n<p className="text-sm text-[#1E0F62]">- Drug Exclusions: Indicate if there is a specific drug your plan does not cover.</p>\n<p className="text-sm text-[#1E0F62]">Upload any required documents (e.g., a letter from your insurer) if available; otherwise, they can be submitted later.</p>',
+        images: ["/images/id87-2.png"],
+        content_orientation: "vertical",
+      }
     ],
     question:
       "Do you need to provide additional insurance information or add another household member's insurance plan?",
@@ -1538,7 +1734,7 @@ const questions: Question[] = [
     content: [
       {
         text: '<p className="text-sm text-[#1E0F62]">To ensure all private insurance plans are included, click the ‘Add an insurance plan’ button and repeat the process for each plan. Continue adding plans until all details are complete. When finished, select the appropriate button: ‘Add an insurance plan’ if you need to add another or ‘Continue’ to proceed.</p>',
-        images: [],
+        images: ["/images/id88-1.png", "/images/id88-2.png"],
         content_orientation: "vertical",
       },
     ],
@@ -1668,7 +1864,17 @@ const questions: Question[] = [
     title: "Application Review",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">Page 6 of the TDP application asks whether you and all household members aged 19 or older have filed tax returns for the most recent tax cycle. This information is used to calculate your deductible.</p>\n<p className="text-sm text-[#1E0F62]">What Does Filing a Tax Return Mean?<br />Filing a tax return means submitting your income information to the Canada Revenue Agency (CRA) for the last tax year. This ensures that your household’s income is properly reported for assessing your application.</p>\n<p className="text-sm text-[#1E0F62]">How to Check if You Have Filed a Tax Return:<br />Review your records for a Notice of Assessment from the CRA, check your CRA ‘My Account’ online, or consult with your accountant or tax preparer.</p>\n<p className="text-sm text-[#1E0F62]">Instructions:<br />- If all household members aged 19 or older have filed their tax returns, select ‘Yes.’<br />- If any household member aged 19 or older has not filed their tax return, select ‘No.’</p>',
+        text: '',
+        images: ["/images/id96-1.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">Page 6 of the TDP application asks whether you and all household members aged 19 or older have filed tax returns for the most recent tax cycle. This information is used to calculate your deductible.</p>\n<p className="text-sm text-[#1E0F62]">What Does Filing a Tax Return Mean?<br />Filing a tax return means submitting your income information to the Canada Revenue Agency (CRA) for the last tax year. This ensures that your household’s income is properly reported for assessing your application.</p>\n<p className="text-sm text-[#1E0F62]">How to Check if You Have Filed a Tax Return:<br />Review your records for a Notice of Assessment from the CRA, check your CRA ‘My Account’ online, or consult with your accountant or tax preparer.</p>\n`,
+        images: ["/images/id96-2.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">Instructions:<br />- If all household members aged 19 or older have filed their tax returns, select ‘Yes.’<br />- If any household member aged 19 or older has not filed their tax return, select ‘No.’</p>`,
         images: [],
         content_orientation: "vertical",
       },
@@ -1686,10 +1892,20 @@ const questions: Question[] = [
     title: "Application Review",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">You have selected ‘YES’, confirming that both you and your partner (if applicable) have submitted your tax returns for the most recent tax year. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Confirm authorization: By selecting ‘YES,’ you agree to allow the TDP to access your submitted tax returns.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box.</p>\n<p className="text-sm text-[#1E0F62]">- Submit the page: After reviewing, press the ‘Submit’ button to finalize this step.</p>',
-        images: [],
+        text: '',
+        images: ["/images/id97-1.png"],
         content_orientation: "vertical",
       },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">You have selected ‘YES’, confirming that both you and your partner (if applicable) have submitted your tax returns for the most recent tax year. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Confirm authorization: By selecting ‘YES,’ you agree to allow the TDP to access your submitted tax returns.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box.</p>\n`,
+        images: ["/images/id97-2.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: '<p className="text-sm text-[#1E0F62]">- Submit the page: After reviewing, press the ‘Submit’ button to finalize this step.</p>',
+        images: ["/images/id97-3.png"],
+        content_orientation: "vertical",
+      }
     ],
     question: "Have you inserted the required signatures and pressed submit?",
     options: {
@@ -1701,10 +1917,25 @@ const questions: Question[] = [
     title: "Application Review",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">You have selected ‘NO’ and indicated that while one partner has submitted their tax returns, the other has not. In this case, you will need to provide supporting documents to verify your household’s income. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Submit supporting documents: Provide documents such as Statement of Earnings or T4 Slips, Social Assistance Statements (if applicable), or Proof of No Income.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent.</p>\n<p className="text-sm text-[#1E0F62]">- Submit the page: Press the ‘Submit’ button to finalize this step.</p>',
-        images: [],
+        text: '',
+        images: ["/images/id98-1.png"],
         content_orientation: "vertical",
       },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">You have selected ‘NO’ and indicated that while one partner has submitted their tax returns, the other has not. In this case, you will need to provide supporting documents to verify your household’s income. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Submit supporting documents: Provide documents such as Statement of Earnings or T4 Slips, Social Assistance Statements (if applicable), or Proof of No Income.</p>\n`,
+        images: ["/images/id98-2.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent.</p>\n`,
+        images: ["/images/id98-3.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: '<p className="text-sm text-[#1E0F62]">- Submit the page: Press the ‘Submit’ button to finalize this step.</p>',
+        images: ["/images/id98-4.png"],
+        content_orientation: "vertical",
+      }
     ],
     question:
       "Have you uploaded the required income documents, signed, and submitted the page?",
@@ -1717,10 +1948,25 @@ const questions: Question[] = [
     title: "Application Review",
     content: [
       {
-        text: '<p className="text-sm text-[#1E0F62]">You have selected ‘NO’ and indicated that neither you nor your partner has submitted tax returns for the most recent tax year. In this case, you must upload alternative documents to verify your household’s income. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Submit supporting documents: Provide one or more of the following for each household member aged 19 or older: Statement of Earnings or T4 Slips, Social Assistance Statements (if applicable), or Proof of No Income.</p>\n<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent for submitting the alternative documents.</p>\n<p className="text-sm text-[#1E0F62]">- Submit the page: Press the ‘Submit’ button to finalize this step.</p>',
-        images: [],
+        text: '',
+        images: ["/images/id99-1.png"],
         content_orientation: "vertical",
       },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">You have selected ‘NO’ and indicated that neither you nor your partner has submitted tax returns for the most recent tax year. In this case, you must upload alternative documents to verify your household’s income. Follow these steps:</p>\n<p className="text-sm text-[#1E0F62]">- Submit supporting documents: Provide one or more of the following for each household member aged 19 or older: Statement of Earnings or T4 Slips, Social Assistance Statements (if applicable), or Proof of No Income.</p>\n`,
+        images: ["/images/id99-2.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">- Insert your signature: Press the ‘Insert Signature’ button and sign in the designated box to confirm your consent for submitting the alternative documents.</p>\n`,
+        images: ["/images/id99-3.png"],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-sm text-[#1E0F62]">- Submit the page: Press the ‘Submit’ button to finalize this step.</p>`,
+        images: ["/images/id99-4.png"],
+        content_orientation: "vertical",
+      }
     ],
     question:
       "Have you uploaded the required income documents, signed, and submitted the page?",
