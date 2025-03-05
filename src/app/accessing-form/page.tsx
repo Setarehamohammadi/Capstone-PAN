@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export default function AccessingForm() {
   return (
-    <main className="h-full flex flex-col gap-4">
+    <main className="h-full flex flex-col gap-4 leading-7">
       <div className="flex flex-col gap-4 bg-[#FFFFFF] p-6 rounded-lg max-w-[700px]">
         <h1 className="text-2xl font-bold text-[#1E0F62]">{`Accessing the Official Trillium Drug Program Application Form`}</h1>
-        <p className="text-sm text-[#1E0F62]">{`To complete your application, you must open the official Trillium Drug Program (TDP) form on the Ontario government website. Follow these steps to access it:`}</p>
+        <p className="text-md text-[#1E0F62]">{`To complete your application, you must open the official Trillium Drug Program (TDP) form on the Ontario government website. Follow these steps to access it:`}</p>
         <h3 className="text-lg font-bold text-[#1E0F62]">{`Step 1: Search for Page`}</h3>
 
         <div className="flex flex-col gap-4 items-center">
@@ -28,7 +28,7 @@ export default function AccessingForm() {
             />
           </div>
           <div className="flex flex-col gap-4  lg:w-[450px]">
-            <p className="text-sm text-[#1E0F62]">
+            <p className="text-md text-[#1E0F62]">
               {`In your web browser, search for “Ontario government Trillium Drug Program” to find the official Ontario government website, click the option titled `}
               <span className="font-bold">{`“Get help with high prescription drug costs”`}</span>
             </p>
@@ -46,7 +46,7 @@ export default function AccessingForm() {
             />
           </div>
           <div className="flex flex-col gap-4 lg:w-[450px]">
-            <p className="text-sm text-[#1E0F62]">
+            <p className="text-md text-[#1E0F62]">
               {`Next, click on Section 5, titled `}
               <span className="font-bold">{`“How to Apply”`}</span>
             </p>
@@ -64,7 +64,7 @@ export default function AccessingForm() {
             />
           </div>
           <div className="flex flex-col gap-4 lg:w-[450px]">
-            <p className="text-sm text-[#1E0F62]">
+            <p className="text-md text-[#1E0F62]">
               {`Under the “How to Apply” section, press the `}
               <span className="font-bold">{`“Apply online”`}</span>
               {` button to be directed to the application portal`}
@@ -83,7 +83,7 @@ export default function AccessingForm() {
             />
           </div>
           <div className="flex flex-col gap-4 lg:w-[450px]">
-            <p className="text-sm text-[#1E0F62]">
+            <p className="text-md text-[#1E0F62]">
               {`On the application portal page, locate the `}
               <span className="font-bold">{`“Trillium Drug Program” `}</span>
               {`section. Press the `}
@@ -102,11 +102,11 @@ export default function AccessingForm() {
 
         <h3 className="text-lg font-bold text-[#1E0F62]">{`Using This Navigator Tool Alongside the Official Form`}</h3>
 
-        <p className="text-sm text-[#1E0F62]">
+        <p className="text-md text-[#1E0F62]">
             {`To make the most of this navigator tool, it is recommended to keep the tool open in one browser tab and the official TDP application form open in another tab. This way, you can easily jump between the two as you follow the step-by-step guidance provided here.`}
         </p>
 
-        <p className="text-sm text-[#1E0F62]">
+        <p className="text-md text-[#1E0F62]">
             {`Let this tool guide you every step of the way while you fill out the official form in real-time!`}
         </p>
       </div>

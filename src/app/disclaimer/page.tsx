@@ -11,12 +11,12 @@ export default function Disclaimer() {
   };
 
   return (
-    <main className="h-full flex flex-col gap-4 ">
+    <main className="h-full flex flex-col gap-4 leading-7">
       <div className="flex flex-col gap-4 bg-[#FFFFFF] p-6 rounded-lg max-w-[700px]">
         <h1 className="text-2xl font-bold text-[#1E0F62]">{`Disclaimer`}</h1>
-        <p className="text-sm text-[#1E0F62]">{`Before using this navigator tool, please review each of the following statements carefully.`}</p>
+        <p className="text-md text-[#1E0F62]">{`Before using this navigator tool, please review each of the following statements carefully.`}</p>
         <h3 className="text-lg font-bold text-[#1E0F62]">{`Note, in the following statements, “users” refers to you, the user of this tool.`}</h3>
-        <ul className="list-disc  list-inside text-sm text-[#1E0F62]">
+        <ul className="list-disc  list-inside text-md text-[#1E0F62]">
           <li>
             {`This tool is a guide to assist with the Trillium Drug Program (TDP) application process but is `}
             <span className="font-bold">{`not a replacement`}</span>
@@ -57,7 +57,7 @@ export default function Disclaimer() {
             checked={isChecked}
             onChange={handleCheckboxChange}
           />
-          <label className="text-sm text-[#1E0F62] leading-none">{`By proceeding, you acknowledge that you have read, understood, and agreed to all of the statements below.`}</label>
+          <label className="text-md text-[#1E0F62] leading-none">{`By proceeding, you acknowledge that you have read, understood, and agreed to all of the statements below.`}</label>
         </div>
       </div>
 
