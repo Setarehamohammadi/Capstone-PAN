@@ -75,7 +75,7 @@ const questions: Question[] = [
     title: "You must first have a valid Ontario Health Card.",
     content: [
       {
-        text: `<p className="text-md text-[#1E0F62]"> You have indicated that you do not have an Ontario Health Card. Once you have obtained a valid Health Card, please revisit this tool.  </p> <p className="text-md text-[#1E0F62]"> Please consult this resource: <a href="https://www.ontario.ca/page/apply-ohip-and-get-health-card"> <button className="underline text-[#1E0F62]">https://www.ontario.ca/page/apply-ohip-and-get-health-card</button> </a> . This page will describe the requirements for a Health Card and will help you obtain one.  </p>`,
+        text: `<p className="text-md text-[#1E0F62]"> You have indicated that you do not have an Ontario Health Card. Once you have obtained a valid Health Card, please revisit this tool.  </p> <p className="text-md text-[#1E0F62]"> Please consult this resource: <a target="_blank" href="https://www.ontario.ca/page/apply-ohip-and-get-health-card"> <button className="underline text-[#1E0F62]">https://www.ontario.ca/page/apply-ohip-and-get-health-card</button> </a> . This page will describe the requirements for a Health Card and will help you obtain one.  </p>`,
         images: ["/images/confused.png"],
         content_orientation: "horizontal",
       },
@@ -90,7 +90,7 @@ const questions: Question[] = [
     title: "You must first have a valid Ontario Health Card",
     content: [
       {
-        text: `<p className=\"text-md text-[#1E0F62]\">You have indicated that your Health Card has expired or will expire in the next two months. Please review your situation. Once you have obtained a valid Health Card, please revisit this tool.</p>\n<p className=\"text-md text-[#1E0F62]\">The Ontario government recommends renewing your card 90 days before expiration. If your card is expired or will expire within the next two months, consider renewing it to avoid issues later in the TDP application process. Please visit the following link to set up an appointment: <Link href=\"http://www.ontario.ca/page/health-card-renewal\"><button className=\"underline text-[#1E0F62]\">Health Card Renewal</button></Link>.</p>\n<p className=\"text-md text-[#1E0F62]\">Link to start page</p>`,
+        text: `<p className=\"text-md text-[#1E0F62]\">You have indicated that your Health Card has expired or will expire in the next two months. Please review your situation. Once you have obtained a valid Health Card, please revisit this tool.</p>\n<p className=\"text-md text-[#1E0F62]\">The Ontario government recommends renewing your card 90 days before expiration. If your card is expired or will expire within the next two months, consider renewing it to avoid issues later in the TDP application process. Please visit the following link to set up an appointment: <a target="_blank" href=\"http://www.ontario.ca/page/health-card-renewal\"><button className=\"underline text-[#1E0F62]\">Health Card Renewal</button></a>.</p>\n<p className=\"text-md text-[#1E0F62]\">Link to start page</p>`,
         images: ["/images/confused.png"],
         content_orientation: "horizontal",
       },
@@ -142,7 +142,7 @@ const questions: Question[] = [
     title: "You are below the program’s age requirement.",
     content: [
       {
-        text: `<p className=\"text-md text-[#1E0F62]\">You have indicated that your age this calendar year is under 25 years old. Applicants to the Trillium Drug Program (TDP) must be 25 years old or older.</p>\n<p className=\"text-md text-[#1E0F62]\">Ontario citizens who are under 25 years old are automatically given OHIP+ coverage. With OHIP+ coverage, the Ontario government will pay for your pre-exposure prophylaxis (PrEP) medication.</p>\n<p className=\"text-md text-[#1E0F62]\">To learn more about OHIP+ please visit this government site: <Link href=\"https://www.ontario.ca/page/learn-about-ohip-plus\"><button className=\"underline text-[#1E0F62]\">https://www.ontario.ca/page/learn-about-ohip-plus</button></Link></p>\n<p className=\"text-md text-[#1E0F62]\">You can access PrEP, using OHIP+ coverage, through Freddie: <Link href=\"https://www.gofreddie.com/\"><button className=\"underline text-[#1E0F62]\">https://www.gofreddie.com/</button></Link></p>`,
+        text: `<p className=\"text-md text-[#1E0F62]\">You have indicated that your age this calendar year is under 25 years old. Applicants to the Trillium Drug Program (TDP) must be 25 years old or older.</p>\n<p className=\"text-md text-[#1E0F62]\">Ontario citizens who are under 25 years old are automatically given OHIP+ coverage. With OHIP+ coverage, the Ontario government will pay for your pre-exposure prophylaxis (PrEP) medication.</p>\n<p className=\"text-md text-[#1E0F62]\">To learn more about OHIP+ please visit this government site: <a target="_blank" href=\"https://www.ontario.ca/page/learn-about-ohip-plus\"><button className=\"underline text-[#1E0F62]\">https://www.ontario.ca/page/learn-about-ohip-plus</button></a></p>\n<p className=\"text-md text-[#1E0F62]\">You can access PrEP, using OHIP+ coverage, through Freddie: <a target="_blank" href=\"https://www.gofreddie.com/\"><button className=\"underline text-[#1E0F62]\">https://www.gofreddie.com/</button></a></p>`,
         images: ["/images/confused.png"],
         content_orientation: "horizontal",
       },
@@ -157,7 +157,7 @@ const questions: Question[] = [
     title: "You are above the program’s age requirement.",
     content: [
       {
-        text: '<p className="text-md text-[#1E0F62]">You have indicated that your age this calendar year is above 64 years old. Applicants to the Trillium Drug Program (TDP) must be 64 years old or younger.</p>\n<p className="text-md text-[#1E0F62]">Ontario citizens who are 65 years and older are automatically enrolled in the Ontario Drug Benefit. The Ontario government will send you a letter regarding your enrollment 3 months before your 65th birthday.</p>\n<p className="text-md text-[#1E0F62]">For more information on the Ontario Drug Benefit, please visit this government website: <Link href="https://www.ontario.ca/page/get-coverage-prescription-drugs#section-0"><button className="underline text-[#1E0F62]">https://www.ontario.ca/page/get-coverage-prescription-drugs#section-0</button></Link></p>\n<p className="text-md text-[#1E0F62]">If you are turning 65 years old and require short-term free PrEP coverage, please visit the PrEPStart program. This program will give you 3-months of free PrEP access: <Link href="https://ontarioprep.ca/prepstart/"><button className="underline text-[#1E0F62]">https://ontarioprep.ca/prepstart/</button></Link></p>\n<p className="text-md text-[#1E0F62]">Individuals from low income households, who are 65 years and older, can apply to the Seniors Co-Payment Program. Through this program, your deductibles will be reduced to $2.00. For more information, please visit: <Link href="https://www.ontario.ca/page/seniors-ontario-drug-benefit-deductible-and-prescription-co-payment"><button className="underline text-[#1E0F62]">https://www.ontario.ca/page/seniors-ontario-drug-benefit-deductible-and-prescription-co-payment</button></Link></p>',
+        text: '<p className="text-md text-[#1E0F62]">You have indicated that your age this calendar year is above 64 years old. Applicants to the Trillium Drug Program (TDP) must be 64 years old or younger.</p>\n<p className="text-md text-[#1E0F62]">Ontario citizens who are 65 years and older are automatically enrolled in the Ontario Drug Benefit. The Ontario government will send you a letter regarding your enrollment 3 months before your 65th birthday.</p>\n<p className="text-md text-[#1E0F62]">For more information on the Ontario Drug Benefit, please visit this government website: <a target="_blank" href="https://www.ontario.ca/page/get-coverage-prescription-drugs#section-0"><button className="underline text-[#1E0F62]">https://www.ontario.ca/page/get-coverage-prescription-drugs#section-0</button></a></p>\n<p className="text-md text-[#1E0F62]">If you are turning 65 years old and require short-term free PrEP coverage, please visit the PrEPStart program. This program will give you 3-months of free PrEP access: <a target="_blank" href="https://ontarioprep.ca/prepstart/"><button className="underline text-[#1E0F62]">https://ontarioprep.ca/prepstart/</button></a></p>\n<p className="text-md text-[#1E0F62]">Individuals from low income households, who are 65 years and older, can apply to the Seniors Co-Payment Program. Through this program, your deductibles will be reduced to $2.00. For more information, please visit: <a target="_blank" href="https://www.ontario.ca/page/seniors-ontario-drug-benefit-deductible-and-prescription-co-payment"><button className="underline text-[#1E0F62]">https://www.ontario.ca/page/seniors-ontario-drug-benefit-deductible-and-prescription-co-payment</button></a></p>',
         images: ["/images/confused.png"],
         content_orientation: "horizontal",
       },
@@ -205,7 +205,7 @@ const questions: Question[] = [
     title: "This program might not be useful to you!",
     content: [
       {
-        text: '<p className="text-md text-[#1E0F62]">You have indicated that you receive complete private coverage for your prescription drug costs. If you are hoping to start using PrEP, you can go straight to the prescription process!</p>\n<p className="text-md text-[#1E0F62]">Use this link to schedule a consultation with a Freddie representative. They will be able to get you on PrEP and can help you in linking it to your private insurance plan: <Link href="https://www.gofreddie.com/"><button className="underline text-[#1E0F62]">https://www.gofreddie.com/</button></Link></p>',
+        text: '<p className="text-md text-[#1E0F62]">You have indicated that you receive complete private coverage for your prescription drug costs. If you are hoping to start using PrEP, you can go straight to the prescription process!</p>\n<p className="text-md text-[#1E0F62]">Use this link to schedule a consultation with a Freddie representative. They will be able to get you on PrEP and can help you in linking it to your private insurance plan: <a target="_blank" href="https://www.gofreddie.com/"><button className="underline text-[#1E0F62]">https://www.gofreddie.com/</button></a></p>',
         images: ["/images/confused.png"],
         content_orientation: "horizontal",
       },
@@ -261,7 +261,7 @@ const questions: Question[] = [
         content_orientation: "vertical",
       },
       {
-        text: `<p className="text-md text-[#1E0F62]">Alternatively, you can access the form directly through this link: <a className="underline text-[#1E0F62]" href="https://forms.ontariodrugbenefit.ca/portal/EFormUpdate.aspx?usid=4c3e13ad-65e4-4f22-a71f-358640a3f907&eFormId=600a8fe9-059f-4688-a358-3e9af217b5bc&DomainID=e98ae7fc-3a6c-42aa-8845-b6b165a4dd9c">Official TDP Application Portal</a></p>`,
+        text: `<p className="text-md text-[#1E0F62]">Alternatively, you can access the form directly through this link: <a target="_blank" className="underline text-[#1E0F62]" href="https://forms.ontariodrugbenefit.ca/portal/EFormUpdate.aspx?usid=4c3e13ad-65e4-4f22-a71f-358640a3f907&eFormId=600a8fe9-059f-4688-a358-3e9af217b5bc&DomainID=e98ae7fc-3a6c-42aa-8845-b6b165a4dd9c">Official TDP Application Portal</a></p>`,
         images: [],
         content_orientation: "vertical",
       },
@@ -375,7 +375,7 @@ const questions: Question[] = [
     title: "Spouse/Partner Scenario",
     content: [
       {
-        text: '<p className="text-md text-[#1E0F62]">You indicated that you live with only your partner or spouse. If you live with a member of your family or your partner’s family, including you or your partner’s children, please go back to the previous page and choose “I live with family”.</p>\n<p className="text-md text-[#1E0F62]">The Trillium Drug Program considers your partner your spouse if:</p>\n<ul className="list-disc pl-4 text-md text-[#1E0F62]">\n  <li className="text-md text-[#1E0F62]">You are married to your partner</li>\n  <li className="text-md text-[#1E0F62]">You are not married to your partner, but have lived together in a conjugal relationship for at least 1 year</li>\n  <li className="text-md text-[#1E0F62]">You are not married to your partner, but live together in a conjugal relationship and have a child together</li>\n  <li className="text-md text-[#1E0F62]">You are not married to your partner, but you live together in a conjugal relationship and have a cohabitation agreement under Section 53 of the Family Law Act.</li>\n</ul>\n<p className="text-md text-[#1E0F62]">Do any of these definitions describe your current relationship with your partner?</p>\n<p className="text-md text-[#1E0F62]">For conjugal: <a href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/permanent-residence/non-economic-classes/family-class-determining-spouse/assessing-conjugal.html" className="underline text-[#1E0F62]">definition</a></p>\n<p className="text-md text-[#1E0F62]">For Section 53 of the Family Law Act: <a href="https://www.ontario.ca/laws/statute/90f03#BK65" className="underline text-[#1E0F62]">53. Cohabitation agreements</a></p>',
+        text: '<p className="text-md text-[#1E0F62]">You indicated that you live with only your partner or spouse. If you live with a member of your family or your partner’s family, including you or your partner’s children, please go back to the previous page and choose “I live with family”.</p>\n<p className="text-md text-[#1E0F62]">The Trillium Drug Program considers your partner your spouse if:</p>\n<ul className="list-disc pl-4 text-md text-[#1E0F62]">\n  <li className="text-md text-[#1E0F62]">You are married to your partner</li>\n  <li className="text-md text-[#1E0F62]">You are not married to your partner, but have lived together in a conjugal relationship for at least 1 year</li>\n  <li className="text-md text-[#1E0F62]">You are not married to your partner, but live together in a conjugal relationship and have a child together</li>\n  <li className="text-md text-[#1E0F62]">You are not married to your partner, but you live together in a conjugal relationship and have a cohabitation agreement under Section 53 of the Family Law Act.</li>\n</ul>\n<p className="text-md text-[#1E0F62]">Do any of these definitions describe your current relationship with your partner?</p>\n<p className="text-md text-[#1E0F62]">For conjugal: <a target="_blank" href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/permanent-residence/non-economic-classes/family-class-determining-spouse/assessing-conjugal.html" className="underline text-[#1E0F62]">definition</a></p>\n<p className="text-md text-[#1E0F62]">For Section 53 of the Family Law Act: <a target="_blank" href="https://www.ontario.ca/laws/statute/90f03#BK65" className="underline text-[#1E0F62]">53. Cohabitation agreements</a></p>',
         images: [],
         content_orientation: "vertical",
       },
@@ -719,7 +719,7 @@ const questions: Question[] = [
       },
       {
         text: `<p className="text-md text-[#1E0F62]"><span className="font-bold">One Insurance Plan Only Covering One Person</span></p>\n<p className="text-md text-[#1E0F62]">If the private insurance plan covers just one person in the household, fill out the following fields:</p>\n<ul>\n  <li className="text-md text-[#1E0F62]">Policy Holder First Name (Required): Enter the first name of the policyholder. If the policyholder only has a single name, leave this field blank and check the box to the right.</li>\n  <li className="text-md text-[#1E0F62]">Policy Holder Last Name or Single Name (Required): Enter the last name or single name of the policyholder as it appears on the insurance documentation.</li>\n</ul>`,
-        images: ["/images/id40-2.png", "/images/id40-3.jpg"],
+        images: ["/images/id40-2.png", "/images/id40-3.png"],
         content_orientation: "horizontal",
       },
       {
@@ -951,7 +951,7 @@ const questions: Question[] = [
         content_orientation: "horizontal",
       },
       {
-        text: '<p className="text-md text-[#1E0F62]"><span className="font-bold">Need Assistance?</span><br />If you have any questions about your application status or require additional support, use the following resources:</p>\n<p className="text-md text-[#1E0F62]">Trillium Drug Program Contact Information:<br />Phone: 1-800-575-5386<br />Email: trillium@ontariodrugbenefit.ca</p>\n<p className="text-md text-[#1E0F62]">External Resources for Assistance:<br />Visit the TDP Website: <a href="https://www.ontario.ca/page/get-help-high-prescription-drug-costs" className="underline text-[#1E0F62]">https://www.ontario.ca/page/get-help-high-prescription-drug-costs</a><br />Contact the Canada Revenue Agency (CRA): <a href="https://www.canada.ca/en/revenue-agency.html" className="underline text-[#1E0F62]">https://www.canada.ca/en/revenue-agency.html</a></p>',
+        text: '<p className="text-md text-[#1E0F62]"><span className="font-bold">Need Assistance?</span><br />If you have any questions about your application status or require additional support, use the following resources:</p>\n<p className="text-md text-[#1E0F62]">Trillium Drug Program Contact Information:<br />Phone: 1-800-575-5386<br />Email: trillium@ontariodrugbenefit.ca</p>\n<p className="text-md text-[#1E0F62]">External Resources for Assistance:<br />Visit the TDP Website: <a target="_blank" href="https://www.ontario.ca/page/get-help-high-prescription-drug-costs" className="underline text-[#1E0F62]">https://www.ontario.ca/page/get-help-high-prescription-drug-costs</a><br />Contact the Canada Revenue Agency (CRA): <a target="_blank" href="https://www.canada.ca/en/revenue-agency.html" className="underline text-[#1E0F62]">https://www.canada.ca/en/revenue-agency.html</a></p>',
         images: ["/images/id-51.png"],
         content_orientation: "horizontal",
       },
@@ -1013,7 +1013,7 @@ const questions: Question[] = [
     ],
     question: "Have you completed all required fields?",
     options: {
-      "Continue to Mailing Address: 54": 54,
+      "Continue to Mailing Address": 54,
     },
   },
   {
@@ -1701,7 +1701,7 @@ const questions: Question[] = [
       },
       {
         text: `<p className="text-md text-[#1E0F62]">One Insurance Plan Covering Multiple Household Members:<br />Complete the above fields and list all household members covered under the plan.</p>`,
-        images: ["/images/id85-3.png"],
+        images: ["/images/id85-3.jpg"],
         content_orientation: "vertical",
       }
     ],
@@ -2018,7 +2018,7 @@ export default function Questionairev2() {
     <div className="flex leading-7 flex-col gap-4 bg-[#FFFFFF] p-6 rounded-lg max-w-[700px]">
       {currentQuestion &&
         (currentQuestion.content.length > 0 ? (
-          <div key={key} className="flex flex-col gap-4">
+          <div key={key} className="flex flex-col gap-8">
             <h1 className="text-2xl font-bold text-[#1E0F62]">
               {currentQuestion.title}
             </h1>

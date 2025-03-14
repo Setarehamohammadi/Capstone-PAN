@@ -95,9 +95,9 @@ export default function AccessingForm() {
         <p className="text-lg text-[#1E0F62]">
           {`Alternatively, you can access the form directly through this link:`}
 
-          <Link href="https://forms.ontariodrugbenefit.ca/portal/EFormUpdate.aspx?usid=4c3e13ad-65e4-4f22-a71f-358640a3f907&eFormId=600a8fe9-059f-4688-a358-3e9af217b5bc&DomainID=e98ae7fc-3a6c-42aa-8845-b6b165a4dd9c">
+          <a target="_blank" href="https://forms.ontariodrugbenefit.ca/portal/EFormUpdate.aspx?usid=4c3e13ad-65e4-4f22-a71f-358640a3f907&eFormId=600a8fe9-059f-4688-a358-3e9af217b5bc&DomainID=e98ae7fc-3a6c-42aa-8845-b6b165a4dd9c">
             <button className="underline text-[#1E0F62]">{`Official TDP Application Portal`}</button>
-          </Link>
+          </a>
         </p>
 
         <h3 className="text-lg font-bold text-[#1E0F62]">{`Using This Navigator Tool Alongside the Official Form`}</h3>
