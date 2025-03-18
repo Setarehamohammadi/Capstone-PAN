@@ -13,7 +13,7 @@ type Content = {
 type Question = {
   id: number;
   title: string;
-  content: Content[];
+  content?: Content[];
   question: string;
   options: {
     [key: string]: number;
@@ -287,6 +287,7 @@ const questions: Question[] = [
       "I live with a partner or spouse": 25,
       "I live with family (including parents, grandparents, and children)": 28,
       "I live with someone other than my family (e.g. roommates)": 21,
+      "I need help determining who should be included in my household": 101,
     },
   },
   {
@@ -897,7 +898,7 @@ const questions: Question[] = [
     ],
     question: "Have you inserted your signatures and have pressed submit?",
     options: {
-      Yes: 51,
+      Yes: 100,
     },
   },
   {
@@ -928,7 +929,7 @@ const questions: Question[] = [
     question:
       "Have you uploaded the appropriate income documents, inserted your signatures, and have pressed submit?",
     options: {
-      Yes: 51,
+      Yes: 100,
     },
   },
   {
@@ -1424,7 +1425,7 @@ const questions: Question[] = [
     ],
     question: "Have you inserted the required signatures and pressed submit?",
     options: {
-      Yes: 51,
+      Yes: 100,
     },
   },
   {
@@ -1455,7 +1456,7 @@ const questions: Question[] = [
     question:
       "Have you uploaded the required income documents, signed, and submitted the page?",
     options: {
-      Yes: 51,
+      Yes: 100,
     },
   },
   {
@@ -1486,7 +1487,7 @@ const questions: Question[] = [
     question:
       "Have you uploaded the required income documents, signed, and submitted the page?",
     options: {
-      Yes: 51,
+      Yes: 100,
     },
   },
   {
@@ -1929,7 +1930,7 @@ const questions: Question[] = [
     ],
     question: "Have you inserted the required signatures and pressed submit?",
     options: {
-      Yes: 51,
+      Yes: 100,
     },
   },
   {
@@ -1960,7 +1961,7 @@ const questions: Question[] = [
     question:
       "Have you uploaded the required income documents, signed, and submitted the page?",
     options: {
-      Yes: 51,
+      Yes: 100,
     },
   },
   {
@@ -1991,8 +1992,107 @@ const questions: Question[] = [
     question:
       "Have you uploaded the required income documents, signed, and submitted the page?",
     options: {
-      Yes: 51,
+      Yes: 100,
     },
+  },
+  {
+    id: 100,
+    title: "Do I Need to Send Prescription Receipts?",
+    content: [
+      {
+        text: `<p className="text-[#1E0F62]">Most people do not need to send their prescription receipts when they apply for the Trillium Drug Program (TDP). But you must send them if:<br />1. You bought medicine before getting your Trillium confirmation letter.<br />2. You have private insurance that pays for part of your medicine. You must show what your insurance covered.<br />If you don’t do this, your medicine costs may not count toward your deductible (the amount you must pay before Trillium helps with your costs).</p>\n`,
+        images: [],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-[#1E0F62]"><span className="font-bold">How to Send Your Prescription Receipts</span></p>\n<p className="text-[#1E0F62]">You can send your receipts online (fastest) or by mail.</p>\n`,
+        images: [],
+        content_orientation: "vertical",
+      },
+      {
+        text: `<p className="text-[#1E0F62]"><span className="font-bold">Option 1: Send Receipts Online (Best Way)</span></p>\n<ol className="text-[#1E0F62]">\n  <li>Go to this Form: “Ontario Drug Benefit Program Receipt Submission Form.”</li>\n  <li>Fill out the form.</li>\n  <li>You must include your Ontario Health Number or Trillium File Number (starts with RA or RB).</li>\n  <li>Take clear pictures or scan your receipts.</li>\n  <li>Upload your receipts to the website.</li>\n  <li>Check everything is correct, then click submit!</li>\n</ol>\n<p className="text-[#1E0F62]"><em>Tip: Online is the fastest way to send your receipts. No need to mail anything!</em></p>\n`,
+        images: [],
+        content_orientation: "vertical"
+      },
+      {
+        text: `<p className="text-[#1E0F62]"><span className="font-bold">Option 2: Send Receipts by Mail</span></p>\n<ol className="text-[#1E0F62]">\n  <li>Go to this Form: <a className="text-[#1E0F62] underline" href="https://forms.ontariodrugbenefit.ca/portal/EFormUpdate.aspx?usid=147190d1-6586-4fd4-b579-8cbd1594d92d&eFormId=bf7c8d6b-fd56-45a0-861d-0f2b1cc9ddc2&DomainID=e98ae7fc-3a6c-42aa-8845-b6b165a4dd9c" target="_blank">“Ontario Drug Benefit Program Receipt Submission Form.”</a></li>\n  <li>Fill out the form.</li>\n  <li>You must include your Ontario Health Number or Trillium File Number (starts with RA or RB).</li>\n  <li>Take clear pictures or scan your receipts.</li>\n  <li>Upload your receipts to the website.</li>\n  <li>Check everything is correct, then click submit!</li>\n</ol>\n<p className="text-[#1E0F62]"><em>Tip: Online is the fastest way to send your receipts. No need to mail anything!</em></p>\n`,
+        images: [],
+        content_orientation: "vertical",
+      }
+    ],
+    question: "Have you uploaded your prescription receipts?",
+    options: {
+      "I understand how to upload my prescription receipts": 51,
+      "I do not need to upload my prescription receipts": 51
+    }
+  },
+  {
+    id: 101,
+    title: "Is This Person Part of My Household for the Trillium Drug Program?",
+    content: [
+      {
+        text: `<p className="text-[#1E0F62]">Are they related to you? (Parent, grandparent, child, grandchild, spouse, or legal guardian?)</p>`,
+        images: [],
+        content_orientation: "vertical"
+      }
+    ],
+    question: "",
+    options: {
+      "Yes": 102,
+      "No": 105
+    }
+  },
+  {
+    id: 102,
+    title: "Is This Person Part of My Household for the Trillium Drug Program?",
+    content: [
+      {
+        text: `<p className="text-[#1E0F62]">Are they dependent on you for financial support?(Do they rely on you for money, food, or housing?)</p>`,
+        images: [],
+        content_orientation: "vertical"
+      },
+    ],
+    question: "",
+    options: {
+      "Yes": 103,
+      "No": 105
+    }
+  },
+  {
+    id: 103,
+    title: "Is This Person Part of My Household for the Trillium Drug Program?",
+    content: [
+      {
+        text: `<p className="text-md text-[#1E0F62]">Do they live with you?<br />(Exception: If they are a student, they can still be part of your household even if they live away for school.)</p>`,
+        images: [],
+        content_orientation: "vertical"
+      }
+    ],
+    question: "",
+    options: {
+      "Yes": 104,
+      "No": 105
+    }
+  },
+  {
+    id: 104,
+    title: "They ARE part of your household. ✅",
+    content: [
+    ],
+    question: "",
+    options: {
+      "Continue": 19
+    }
+  },
+  {
+    id: 105,
+    title: "They are NOT part of your household. ❌",
+    content: [
+    ],
+    question: "",
+    options: {
+      "Continue": 19
+    }
   },
 ];
 
@@ -2016,8 +2116,29 @@ export default function Questionairev2() {
 
   return (
     <div className="flex leading-7 flex-col gap-4 bg-[#FFFFFF] p-6 rounded-lg max-w-[700px]">
+      {currentQuestion && currentQuestion.content && currentQuestion.content.length === 0 && (
+        <div key={key} className=" flex flex-col gap-6 justify-center items-center">
+          <h1 className="text-2xl font-bold text-[#1E0F62]">
+            {currentQuestion.title}
+          </h1>
+          <div className="flex flex-col gap-4 w-full">
+            {currentQuestion.options &&
+              Object.entries(currentQuestion.options).map(
+                ([option, optionId]) => (
+                  <button
+                    key={`${key}-${option}-${optionId}`}
+                    onClick={() => handleOptionClick(optionId)}
+                    className="bg-[#1E0F62] text-white text-[20px] font-bold w-full max-w-[700px] px-4 py-2 rounded-2xl shadow-lg hover:bg-[#1E0F62]/80"
+                  >
+                    {option}
+                  </button>
+                )
+              )}
+          </div>
+        </div>
+      )}
       {currentQuestion &&
-        (currentQuestion.content.length > 0 ? (
+        (currentQuestion.content && currentQuestion.content.length > 0 ? (
           <div key={key} className="flex flex-col gap-8">
             <h1 className="text-2xl font-bold text-[#1E0F62]">
               {currentQuestion.title}
@@ -2064,12 +2185,14 @@ export default function Questionairev2() {
             </div>
           </div>
         ) : (
+          <>
+          {currentQuestion.content && currentQuestion.content.length > 0 && (
           <div key={key} className="flex flex-col gap-4">
             <h1 className="text-2xl font-bold text-[#1E0F62]">
               {currentQuestion.title}
             </h1>
             <p className="text-[#1E0F62]">{currentQuestion.question}</p>
-            <div>{parse(currentQuestion.content[0].text)}</div>
+            <div>{parse(currentQuestion.content?.[0]?.text || "")}</div>
             <div className="flex flex-col gap-4">
               {currentQuestion.options &&
                 Object.entries(currentQuestion.options).map(
@@ -2085,6 +2208,8 @@ export default function Questionairev2() {
                 )}
             </div>
           </div>
+          )}
+          </>
         ))}
     </div>
   );
